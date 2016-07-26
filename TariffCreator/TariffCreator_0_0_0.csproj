@@ -88,10 +88,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NewTariff\TariffImport\PrefixNotFound.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="NewTariff\NewTariff.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,9 +109,6 @@
     </Compile>
     <Compile Include="NewTariff\TariffImport\ImportTariff.xaml.cs">
       <DependentUpon>ImportTariff.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="NewTariff\TariffImport\PrefixNotFound.xaml.cs">
-      <DependentUpon>PrefixNotFound.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewTariff\NewTariff.xaml.cs">
       <DependentUpon>NewTariff.xaml</DependentUpon>

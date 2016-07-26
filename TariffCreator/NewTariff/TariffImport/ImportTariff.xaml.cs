@@ -40,7 +40,7 @@ namespace TariffCreator.NewTariff.TariffImport
             }
             foreach (Country item in mobile)
                 tariffList.Add(item);
-            TariffListEventArgs list = new TariffListEventArgs { TariffList = tariffList };
+            TariffListEventArgs list = new TariffListEventArgs { TariffList = tariffList, IsOverride = tick_overwrite.IsChecked };
             TariffListCreated(this, list);
             Close();
         }
@@ -145,5 +145,6 @@ namespace TariffCreator.NewTariff.TariffImport
     public class TariffListEventArgs : EventArgs
     {
         public ObservableCollection<Country> TariffList { get; set; }
+        public bool? IsOverride { get; set; }
     }
 }
