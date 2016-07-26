@@ -1,0 +1,2138 @@
+﻿001|North America
+-
+001340|United States Virgin Islands
+001670|Northern Mariana Islands
+001671|Guam
+001684|American Samoa
+001787|Puerto Rico
+001242|Bahamas
+001246|Barbados
+001264|Anguilla
+001268|Antigua and Barbuda
+001284|British Virgin Islands
+001345|Cayman Islands
+001441|Bermuda
+001473|Grenada
+001649|Turks and Caicos Islands
+001664|Montserrat
+001721|Sint Maarten
+001758|Saint Lucia
+001767|Dominica
+001784|Saint Vincent and the Grenadines
+001809|Dominican Republic
+001868|Trinidad and Tobago
+001869|Saint Kitts and Nevis
+001876|Jamaica
+-
+002|Africa
+-
+0020|Egypt
+--
+002010|Egypt - Mobile
+002011|Egypt - Mobile
+002012|Egypt - Mobile
+002016|Egypt - Mobile
+002018|Egypt - Mobile
+--
+00211|South Sudan
+--
+0021111|South Sudan - Mobile
+0021191|South Sudan - Mobile
+0021192|South Sudan - Mobile
+0021195|South Sudan - Mobile
+0021197|South Sudan - Mobile
+0021199|South Sudan - Mobile
+--
+00212|Morocco
+--
+002121|Morocco - Mobile
+002126|Morocco - Mobile
+002127|Morocco - Mobile
+0021292|Morocco - Mobile
+0021212|Morocco - Mobile
+0021214|Morocco - Mobile
+0021260|Morocco - Mobile
+0021263|Morocco - Mobile
+0021264|Morocco - Mobile
+0021265|Morocco - Mobile
+0021269|Morocco - Mobile
+0021274|Morocco - Mobile
+0021275|Morocco - Mobile
+0021279|Morocco - Mobile
+--
+002125288|Western Sahara
+002125289|Western Sahara
+00213|Algeria
+--
+002135|Algeria - Mobile
+002137|Algeria - Mobile
+0021390|Algeria - Mobile
+0021391|Algeria - Mobile
+0021392|Algeria - Mobile
+0021393|Algeria - Mobile
+0021394|Algeria - Mobile
+--
+00216|Tunisia
+--
+002162|Tunisia - Mobile
+002169|Tunisia - Mobile
+--
+00218|Libya
+--
+0021891|Libya - Mobile
+0021892|Libya - Mobile
+--
+00220|Gambia
+--
+002207|Gambia - Mobile
+00220810|Gambia - Mobile
+00220820|Gambia - Mobile
+0022088|Gambia - Mobile
+002209|Gambia - Mobile
+--
+00221|Senegal
+--
+002215|Senegal - Mobile
+002216|Senegal - Mobile
+002217|Senegal - Mobile
+--
+00222|Mauritania
+--
+002226|Mauritania - Mobile
+--
+00223|Mali
+--
+0022350|Mali - Mobile
+0022351|Mali - Mobile
+0022352|Mali - Mobile
+0022353|Mali - Mobile
+0022354|Mali - Mobile
+002236|Mali - Mobile
+002239|Mali - Mobile
+--
+00224|Guinea
+--
+0024529|Guinea - Mobile
+002456|Guinea - Mobile
+002457|Guinea - Mobile
+--
+00225|CÙte d'Ivoire
+00226|Burkina Faso
+--
+0022670|Burkina Faso - Mobile
+0022672|Burkina Faso - Mobile
+0022676|Burkina Faso - Mobile
+0022678|Burkina Faso - Mobile
+--
+00227|Niger
+00228|Togo
+--
+002280|Togo - Mobile
+002289|Togo - Mobile
+--
+00229|Benin
+--
+002290|Benin - Mobile
+0022940|Benin - Mobile
+0022942|Benin - Mobile
+0022944|Benin - Mobile
+0022945|Benin - Mobile
+0022946|Benin - Mobile
+0022947|Benin - Mobile
+0022948|Benin - Mobile
+0022956|Benin - Mobile
+0022957|Benin - Mobile
+0022958|Benin - Mobile
+0022960|Benin - Mobile
+0022964|Benin - Mobile
+0022968|Benin - Mobile
+0022969|Benin - Mobile
+0022970|Benin - Mobile
+0022971|Benin - Mobile
+0022972|Benin - Mobile
+0022973|Benin - Mobile
+0022974|Benin - Mobile
+0022976|Benin - Mobile
+0022977|Benin - Mobile
+0022979|Benin - Mobile
+0022984|Benin - Mobile
+0022985|Benin - Mobile
+0022986|Benin - Mobile
+0022987|Benin - Mobile
+0022988|Benin - Mobile
+0022989|Benin - Mobile
+002299|Benin - Mobile
+--
+00230|Mauritius
+--
+0023025|Mauritius - Mobile
+00230421|Mauritius - Mobile
+00230422|Mauritius - Mobile
+00230423|Mauritius - Mobile
+0023049|Mauritius - Mobile
+0023072|Mauritius - Mobile
+0023073|Mauritius - Mobile
+0023074|Mauritius - Mobile
+0023075|Mauritius - Mobile
+0023076|Mauritius - Mobile
+0023077|Mauritius - Mobile
+0023078|Mauritius - Mobile
+0023079|Mauritius - Mobile
+00230875|Mauritius - Mobile
+00230876|Mauritius - Mobile
+0023091|Mauritius - Mobile
+--
+00231|Liberia
+--
+0023103|Liberia - Mobile
+0023128|Liberia - Mobile
+0023138|Liberia - Mobile
+0023139|Liberia - Mobile
+0023140|Liberia - Mobile
+0023141|Liberia - Mobile
+0023146|Liberia - Mobile
+0023147|Liberia - Mobile
+002315|Liberia - Mobile
+0023164|Liberia - Mobile
+0023165|Liberia - Mobile
+0023166|Liberia - Mobile
+0023167|Liberia - Mobile
+0023168|Liberia - Mobile
+0023169|Liberia - Mobile
+002317|Liberia - Mobile
+--
+00232|Sierra Leone
+--
+002321|Sierra Leone - Mobile
+0023223|Sierra Leone - Mobile
+0023230|Sierra Leone - Mobile
+0023233|Sierra Leone - Mobile
+0023240|Sierra Leone - Mobile
+0023250|Sierra Leone - Mobile
+0023276|Sierra Leone - Mobile
+0023277|Sierra Leone - Mobile
+0023290|Sierra Leone - Mobile
+--
+00233|Ghana
+--
+0023320|Ghana - Mobile
+002332160|Ghana - Mobile
+002332170|Ghana - Mobile
+0023323|Ghana - Mobile
+0023324|Ghana - Mobile
+0023326|Ghana - Mobile
+0023327|Ghana - Mobile
+0023328|Ghana - Mobile
+--
+00234|Nigeria
+--
+002341288|Nigeria - Mobile
+002341290|Nigeria - Mobile
+002341320|Nigeria - Mobile
+002341342|Nigeria - Mobile
+002341460|Nigeria - Mobile
+002341470|Nigeria - Mobile
+002341471|Nigeria - Mobile
+002341475|Nigeria - Mobile
+002341476|Nigeria - Mobile
+002341477|Nigeria - Mobile
+002341478|Nigeria - Mobile
+002341479|Nigeria - Mobile
+002341490|Nigeria - Mobile
+002341497|Nigeria - Mobile
+002341759|Nigeria - Mobile
+002341774|Nigeria - Mobile
+002341775|Nigeria - Mobile
+00234470|Nigeria - Mobile
+00234774|Nigeria - Mobile
+00234775|Nigeria - Mobile
+0023480|Nigeria - Mobile
+0023490|Nigeria - Mobile
+--
+00235|Chad
+--
+002352|Chad - Mobile
+002353|Chad - Mobile
+002354|Chad - Mobile
+002358|Chad - Mobile
+002359|Chad - Mobile
+--
+00236|Central African Republic
+--
+002360|Central African Republic - Mobile
+0023620|Central African Republic - Mobile
+002365|Central African Republic - Mobile
+0023664|Central African Republic - Mobile
+00236707|Central African Republic - Mobile
+00236906|Central African Republic - Mobile
+00236909|Central African Republic - Mobile
+--
+00237|Cameroon
+--
+002375|Cameroon - Mobile
+002376|Cameroon - Mobile
+002377|Cameroon - Mobile
+002378|Cameroon - Mobile
+002379|Cameroon - Mobile
+--
+00238|Cape Verde
+--
+002389|Cape Verde - Mobile
+--
+00239|Sao Tome and Principe
+--
+002399|Sao Tome and Principe - Mobile
+--
+00240|Equatorial Guinea
+--
+002402|Equatorial Guinea - Mobile
+002403|Equatorial Guinea - Mobile
+002404|Equatorial Guinea - Mobile
+002405|Equatorial Guinea - Mobile
+002406|Equatorial Guinea - Mobile
+002407|Equatorial Guinea - Mobile
+--
+00241|Gabon
+--
+0024103|Gabon - Mobile
+0024104|Gabon - Mobile
+0024105|Gabon - Mobile
+0024106|Gabon - Mobile
+0024107|Gabon - Mobile
+0024108|Gabon - Mobile
+0024109|Gabon - Mobile
+0024110|Gabon - Mobile
+0024111|Gabon - Mobile
+0024114|Gabon - Mobile
+0024115|Gabon - Mobile
+002412|Gabon - Mobile
+002413|Gabon - Mobile
+0024141|Gabon - Mobile
+002415|Gabon - Mobile
+002416|Gabon - Mobile
+002417|Gabon - Mobile
+0024180|Gabon - Mobile
+0024181|Gabon - Mobile
+0024184|Gabon - Mobile
+0024185|Gabon - Mobile
+0024187|Gabon - Mobile
+0024189|Gabon - Mobile
+0024191|Gabon - Mobile
+0024194|Gabon - Mobile
+0024195|Gabon - Mobile
+0024197|Gabon - Mobile
+--
+00242|Republic of the Congo
+00243|Democratic Republic of the Congo
+--
+0024353|Democratic Republic of the Congo - Mobile
+0024368|Democratic Republic of the Congo - Mobile
+002437|Democratic Republic of the Congo - Mobile
+002438|Democratic Republic of the Congo - Mobile
+002439|Democratic Republic of the Congo - Mobile
+--
+00244|Angola
+--
+002449|Angola - Mobile
+--
+00245|Guinea-Bissau
+--
+0024529|Guinea-Bissau - Mobile
+002456|Guinea-Bissau - Mobile
+002457|Guinea-Bissau - Mobile
+--
+00246|British Indian Ocean Territory
+00247|Ascension Island
+00248|Seychelles
+--
+0024820|Seychelles - Mobile
+0024821|Seychelles - Mobile
+002485|Seychelles - Mobile
+002487|Seychelles - Mobile
+--
+00249|Sudan
+--
+0024912|Sudan - Mobile
+00249703|Sudan - Mobile
+0024991|Sudan - Mobile
+0024992|Sudan - Mobile
+--
+00250|Rwanda
+--
+0025005|Rwanda - Mobile
+0025008|Rwanda - Mobile
+--
+00251|Ethiopia
+--
+002519|Ethiopia - Mobile
+--
+00252|Somalia
+00253|Djibouti
+--
+002538|Djibouti - Mobile
+--
+00254|Kenya
+--
+002547|Kenya - Mobile
+--
+00255|Tanzania
+--
+002557|Tanzania - Mobile
+--
+0025524|Zanzibar
+00256|Uganda
+--
+002563|Uganda - Mobile
+0025675|Uganda - Mobile
+0025676|Uganda - Mobile
+0025677|Uganda - Mobile
+0025678|Uganda - Mobile
+0025671|Uganda - Mobile
+0038068|Uganda - Mobile
+--
+00257|Burundi
+--
+0025729|Burundi - Mobile
+002576|Burundi - Mobile
+002578|Burundi - Mobile
+002579|Burundi - Mobile
+--
+00258|Mozambique
+--
+002588|Mozambique - Mobile
+--
+00260|Zambia
+--
+0026094|Zambia - Mobile
+0026095|Zambia - Mobile
+0026096|Zambia - Mobile
+0026097|Zambia - Mobile
+0026098|Zambia - Mobile
+0026099|Zambia - Mobile
+--
+00261|Madagascar
+--
+002613|Madagascar - Mobile
+--
+00262|Reunion
+--
+00262692|Reunion - Mobile
+--
+002696|Mayotte
+--
+002692|Mayotte - Mobile
+0026963|Mayotte - Mobile
+0026965|Mayotte - Mobile
+0026966|Mayotte - Mobile
+0026967|Mayotte - Mobile
+0026968|Mayotte - Mobile
+0026969|Mayotte - Mobile
+--
+00263|Zimbabwe
+--
+0026311|Zimbabwe - Mobile
+0026391|Zimbabwe - Mobile
+0026323|Zimbabwe - Mobile
+--
+00264|Namibia
+--
+0026460|Namibia - Mobile
+0026481|Namibia - Mobile
+--
+00265|Malawi
+--
+002658|Malawi - Mobile
+002659|Malawi - Mobile
+--
+00266|Lesotho
+--
+002665|Lesotho - Mobile
+002666|Lesotho - Mobile
+--
+00267|Botswana
+--
+002677|Botswana - Mobile
+--
+00268|Swaziland
+--
+002686|Swaziland - Mobile
+--
+00269|Comoros
+0027|South Africa
+--
+002772|South Africa - Mobile
+002773|South Africa - Mobile
+002774|South Africa - Mobile
+002776|South Africa - Mobile
+002778|South Africa - Mobile
+002779|South Africa - Mobile
+00278|South Africa - Mobile
+--
+00290|Saint Helena
+002908|Tristan da Cunha
+00291|Eritrea
+--
+00291171|Eritrea - Mobile
+00291172|Eritrea - Mobile
+00291173|Eritrea - Mobile
+002917|Eritrea - Mobile
+--
+00297|Aruba
+--
+0029756|Aruba - Mobile
+0029759|Aruba - Mobile
+0029773|Aruba - Mobile
+0029774|Aruba - Mobile
+0029796|Aruba - Mobile
+0029799|Aruba - Mobile
+--
+00298|Faroe Islands
+--
+0029821|Faroe Islands - Mobile
+0029822|Faroe Islands - Mobile
+0029823|Faroe Islands - Mobile
+0029824|Faroe Islands - Mobile
+0029825|Faroe Islands - Mobile
+0029826|Faroe Islands - Mobile
+0029827|Faroe Islands - Mobile
+0029828|Faroe Islands - Mobile
+0029829|Faroe Islands - Mobile
+002985|Faroe Islands - Mobile
+002987|Faroe Islands - Mobile
+0029891|Faroe Islands - Mobile
+0029892|Faroe Islands - Mobile
+0029893|Faroe Islands - Mobile
+0029894|Faroe Islands - Mobile
+0029895|Faroe Islands - Mobile
+0029896|Faroe Islands - Mobile
+0029897|Faroe Islands - Mobile
+0029898|Faroe Islands - Mobile
+0029899|Faroe Islands - Mobile
+--
+00299|Greenland
+--
+0029922|Greenland - Mobile
+0029923|Greenland - Mobile
+0029924|Greenland - Mobile
+002994|Greenland - Mobile
+002995|Greenland - Mobile
+--
+-
+003|Europe
+-
+0030|Greece
+--
+003069|Greece - Mobile
+--
+0031|Netherlands
+--
+00316|Netherlands - Mobile
+--
+0032|Belgium
+--
+003244|Belgium - Mobile
+003245|Belgium - Mobile
+003247|Belgium - Mobile
+003248|Belgium - Mobile
+003249|Belgium - Mobile
+--
+0033|France
+--
+00336|France - Mobile
+00337|France - Mobile
+--
+0034|Spain
+--
+00346|Spain - Mobile
+--
+00350|Gibraltar
+--
+0035054|Gibraltar - Mobile
+0035056|Gibraltar - Mobile
+0035057|Gibraltar - Mobile
+0035058|Gibraltar - Mobile
+--
+00351|Portugal
+--
+00351169|Portugal - Mobile
+00351189|Portugal - Mobile
+00351609|Portugal - Mobile
+00351669|Portugal - Mobile
+00351676|Portugal - Mobile
+003519|Portugal - Mobile
+--
+00352|Luxembourg
+--
+00352021|Luxembourg - Mobile
+00352028|Luxembourg - Mobile
+00352029|Luxembourg - Mobile
+00352061|Luxembourg - Mobile
+00352068|Luxembourg - Mobile
+00352091|Luxembourg - Mobile
+00352098|Luxembourg - Mobile
+0035221|Luxembourg - Mobile
+0035228|Luxembourg - Mobile
+0035229|Luxembourg - Mobile
+0035261|Luxembourg - Mobile
+00352621|Luxembourg - Mobile
+00352628|Luxembourg - Mobile
+00352661|Luxembourg - Mobile
+00352668|Luxembourg - Mobile
+0035268|Luxembourg - Mobile
+00352691|Luxembourg - Mobile
+00352698|Luxembourg - Mobile
+0035291|Luxembourg - Mobile
+0035298|Luxembourg - Mobile
+--
+00353|Ireland
+--
+003538|Ireland - Mobile
+--
+00354|Iceland
+--
+003543|Iceland - Mobile
+003546|Iceland - Mobile
+003548|Iceland - Mobile
+--
+00355|Albania
+--
+0035567|Albania - Mobile
+0035568|Albania - Mobile
+0035569|Albania - Mobile
+--
+00356|Malta
+--
+003567|Malta - Mobile
+003569|Malta - Mobile
+--
+00357|Cyprus
+--
+003579|Cyprus - Mobile
+--
+00358|Finland
+--
+0035850|Finland - Mobile
+003584|Finland - Mobile
+--
+0035818|Aland Islands
+00359|Bulgaria
+--
+0035948|Bulgaria - Mobile
+0035988|Bulgaria - Mobile
+0035917|Bulgaria - Mobile
+0035949|Bulgaria - Mobile
+0035979|Bulgaria - Mobile
+0035998|Bulgaria - Mobile
+0035999|Bulgaria - Mobile
+0035987|Bulgaria - Mobile
+0035989|Bulgaria - Mobile
+--
+0036|Hungary
+--
+003620|Hungary - Mobile
+003630|Hungary - Mobile
+003650|Hungary - Mobile
+003660|Hungary - Mobile
+003670|Hungary - Mobile
+--
+00370|Lithuania
+--
+003706|Lithuania - Mobile
+--
+00371|Lativa
+--
+003712|Lativa - Mobile
+0037155|Lativa - Mobile
+0037158|Lativa - Mobile
+0037159|Lativa - Mobile
+003718|Lativa - Mobile
+003719|Lativa - Mobile
+--
+00372|Estonia
+--
+003725|Estonia - Mobile
+--
+00373|Moldova
+--
+00373562|Moldova - Mobile
+00373567|Moldova - Mobile
+003736|Moldova - Mobile
+003737|Moldova - Mobile
+003739|Moldova - Mobile
+0037369|Moldova - Mobile
+--
+00374|Armenia
+--
+0037472|Armenia - Mobile
+0037473|Armenia - Mobile
+0037479|Armenia - Mobile
+003749|Armenia - Mobile
+--
+00375|Belarus
+--
+0037525|Belarus - Mobile
+0037529|Belarus - Mobile
+--
+00376|Andorra
+--
+003763|Andorra - Mobile
+003764|Andorra - Mobile
+003765|Andorra - Mobile
+003766|Andorra - Mobile
+--
+00377|Monaco
+--
+003774|Monaco - Mobile
+003776|Monaco - Mobile
+--
+00378|San Marino
+00379|Vatican City
+00380|Ukraine
+--
+0038063|Ukraine - Mobile
+0038093|Ukraine - Mobile
+0038050|Ukraine - Mobile
+0038066|Ukraine - Mobile
+0038095|Ukraine - Mobile
+0038099|Ukraine - Mobile
+0038067|Ukraine - Mobile
+0038096|Ukraine - Mobile
+0038097|Ukraine - Mobile
+0038098|Ukraine - Mobile
+0038039|Ukraine - Mobile
+--
+00381|Serbia
+--
+003816|Serbia - Mobile
+--
+00382|Montenegro
+--
+0038167|Montenegro - Mobile
+0038168|Montenegro - Mobile
+0038169|Montenegro - Mobile
+--
+00383|Kosovo
+00385|Croatia
+--
+00385098|Croatia - Mobile
+00385099|Croatia - Mobile
+0038560|Croatia - Mobile
+0038562|Croatia - Mobile
+003859|Croatia - Mobile
+--
+00386|Slovenia
+--
+0038620|Slovenia - Mobile
+0038621|Slovenia - Mobile
+0038630|Slovenia - Mobile
+0038631|Slovenia - Mobile
+0038640|Slovenia - Mobile
+0038641|Slovenia - Mobile
+0038649|Slovenia - Mobile
+0038650|Slovenia - Mobile
+0038651|Slovenia - Mobile
+0038660|Slovenia - Mobile
+0038661|Slovenia - Mobile
+0038664|Slovenia - Mobile
+0038665|Slovenia - Mobile
+0038666|Slovenia - Mobile
+0038667|Slovenia - Mobile
+0038668|Slovenia - Mobile
+0038669|Slovenia - Mobile
+0038670|Slovenia - Mobile
+0038671|Slovenia - Mobile
+00386880|Slovenia - Mobile
+00386889|Slovenia - Mobile
+0042190|Slovenia - Mobile
+0042191|Slovenia - Mobile
+0042194|Slovenia - Mobile
+--
+00387|Bosnia and Herzegovina
+--
+0038760|Bosnia and Herzegovina - Mobile
+0038761|Bosnia and Herzegovina - Mobile
+0038762|Bosnia and Herzegovina - Mobile
+0038763|Bosnia and Herzegovina - Mobile
+0038764|Bosnia and Herzegovina - Mobile
+0038765|Bosnia and Herzegovina - Mobile
+0038766|Bosnia and Herzegovina - Mobile
+0038790|Bosnia and Herzegovina - Mobile
+--
+00389|Macedonia
+--
+0038951|Macedonia - Mobile
+003897|Macedonia - Mobile
+--
+0039|Italy
+--
+00393|Italy - Mobile
+0039563|Italy - Mobile
+--
+-
+004|Europe
+-
+0040|Romania
+--
+00407|Romania - Mobile
+--
+0041|Switzerland
+--
+004120|Switzerland - Mobile
+004170|Switzerland - Mobile
+004174|Switzerland - Mobile
+004177|Switzerland - Mobile
+004179979|Switzerland - Mobile
+004186|Switzerland - Mobile
+004189|Switzerland - Mobile
+004178|Switzerland - Mobile
+004186078|Switzerland - Mobile
+004176|Switzerland - Mobile
+004179|Switzerland - Mobile
+004186079|Switzerland - Mobile
+--
+00420|Czech Republic
+--
+0042060|Czech Republic - Mobile
+004207|Czech Republic - Mobile
+0042093|Czech Republic - Mobile
+0042096|Czech Republic - Mobile
+--
+00421|Slovakia
+--
+00421903|Slovakia - Mobile
+00421904|Slovakia - Mobile
+00421905|Slovakia - Mobile
+00421906|Slovakia - Mobile
+00421907|Slovakia - Mobile
+--
+00423|Liechtenstein
+--
+004235|Liechtenstein - Mobile
+004236|Liechtenstein - Mobile
+004237|Liechtenstein - Mobile
+--
+0043|Austria
+--
+0043644|Austria - Mobile
+0043651|Austria - Mobile
+0043652|Austria - Mobile
+0043653|Austria - Mobile
+0043655|Austria - Mobile
+0043657|Austria - Mobile
+0043659|Austria - Mobile
+0043661|Austria - Mobile
+0043663|Austria - Mobile
+0043665|Austria - Mobile
+0043666|Austria - Mobile
+0043667|Austria - Mobile
+0043668|Austria - Mobile
+0043669|Austria - Mobile
+0043686|Austria - Mobile
+0043688|Austria - Mobile
+004367|Austria - Mobile
+004368|Austria - Mobile
+004369|Austria - Mobile
+0043711|Austria - Mobile
+0043720|Austria - Mobile
+0043730|Austria - Mobile
+0043740|Austria - Mobile
+0043780|Austria - Mobile
+0043680|Austria - Mobile
+0043664|Austria - Mobile
+0043681|Austria - Mobile
+0043699|Austria - Mobile
+0043660|Austria - Mobile
+0043678|Austria - Mobile
+0043676|Austria - Mobile
+0043650|Austria - Mobile
+--
+0044|UK
+--
+00447|UK - Mobile
+--
+0045|Denmark
+--
+0045206|Denmark - Mobile
+0045207|Denmark - Mobile
+0045208|Denmark - Mobile
+0045209|Denmark - Mobile
+004522|Denmark - Mobile
+0045251|Denmark - Mobile
+0045252|Denmark - Mobile
+0045253|Denmark - Mobile
+0045254|Denmark - Mobile
+0045255|Denmark - Mobile
+0045256|Denmark - Mobile
+0045405|Denmark - Mobile
+0045406|Denmark - Mobile
+0045407|Denmark - Mobile
+0045408|Denmark - Mobile
+0045409|Denmark - Mobile
+0045411|Denmark - Mobile
+0045412|Denmark - Mobile
+0045413|Denmark - Mobile
+0045416|Denmark - Mobile
+00455010|Denmark - Mobile
+00455011|Denmark - Mobile
+00455012|Denmark - Mobile
+00455013|Denmark - Mobile
+00455014|Denmark - Mobile
+0045504|Denmark - Mobile
+0045505|Denmark - Mobile
+0045507|Denmark - Mobile
+0045508|Denmark - Mobile
+0045509|Denmark - Mobile
+0045606|Denmark - Mobile
+0045607|Denmark - Mobile
+0045608|Denmark - Mobile
+00456091|Denmark - Mobile
+00456092|Denmark - Mobile
+00456093|Denmark - Mobile
+00456094|Denmark - Mobile
+00456095|Denmark - Mobile
+00452|Denmark - Mobile
+004530|Denmark - Mobile
+004531|Denmark - Mobile
+004540|Denmark - Mobile
+004541|Denmark - Mobile
+004560|Denmark - Mobile
+004561|Denmark - Mobile
+--
+0046|Sweden
+--
+0046594|Sweden - Mobile
+0046675|Sweden - Mobile
+0046676|Sweden - Mobile
+004670|Sweden - Mobile
+004673|Sweden - Mobile
+004674|Sweden - Mobile
+004676|Sweden - Mobile
+0046124|Sweden - Mobile
+0046126|Sweden - Mobile
+0046127|Sweden - Mobile
+0046129|Sweden - Mobile
+0046252|Sweden - Mobile
+00467015|Sweden - Mobile
+00467016|Sweden - Mobile
+0046704|Sweden - Mobile
+0046707|Sweden - Mobile
+00467321|Sweden - Mobile
+00467322|Sweden - Mobile
+00467355|Sweden - Mobile
+00467356|Sweden - Mobile
+00467357|Sweden - Mobile
+00467358|Sweden - Mobile
+00467359|Sweden - Mobile
+0046736|Sweden - Mobile
+0046737|Sweden - Mobile
+0046739|Sweden - Mobile
+0046762|Sweden - Mobile
+004610|Sweden - Mobile
+0046376|Sweden - Mobile
+0046450|Sweden - Mobile
+0046458|Sweden - Mobile
+0046518|Sweden - Mobile
+0046519|Sweden - Mobile
+0046592|Sweden - Mobile
+0046593|Sweden - Mobile
+0046595|Sweden - Mobile
+0046596|Sweden - Mobile
+0046673|Sweden - Mobile
+00467010|Sweden - Mobile
+00467012|Sweden - Mobile
+00467013|Sweden - Mobile
+00467017|Sweden - Mobile
+00467018|Sweden - Mobile
+004670190|Sweden - Mobile
+004670191|Sweden - Mobile
+004670195|Sweden - Mobile
+0046702|Sweden - Mobile
+0046703|Sweden - Mobile
+0046705|Sweden - Mobile
+0046706|Sweden - Mobile
+0046730|Sweden - Mobile
+00467316|Sweden - Mobile
+004673170|Sweden - Mobile
+00467318|Sweden - Mobile
+00467319|Sweden - Mobile
+00467327|Sweden - Mobile
+004673456|Sweden - Mobile
+00467380|Sweden - Mobile
+00467381|Sweden - Mobile
+00467382|Sweden - Mobile
+00467383|Sweden - Mobile
+00467384|Sweden - Mobile
+00467610|Sweden - Mobile
+00467611|Sweden - Mobile
+00467612|Sweden - Mobile
+00467613|Sweden - Mobile
+00467614|Sweden - Mobile
+00467680|Sweden - Mobile
+00467681|Sweden - Mobile
+00467682|Sweden - Mobile
+00467683|Sweden - Mobile
+00467684|Sweden - Mobile
+00467890|Sweden - Mobile
+0046674|Sweden - Mobile
+0046700|Sweden - Mobile
+00467011|Sweden - Mobile
+00467014|Sweden - Mobile
+004670196|Sweden - Mobile
+004670197|Sweden - Mobile
+004670198|Sweden - Mobile
+004670199|Sweden - Mobile
+0046708|Sweden - Mobile
+0046709|Sweden - Mobile
+0046731|Sweden - Mobile
+00467320|Sweden - Mobile
+00467323|Sweden - Mobile
+0046733|Sweden - Mobile
+0046734|Sweden - Mobile
+00467385|Sweden - Mobile
+00467685|Sweden - Mobile
+00467686|Sweden - Mobile
+00467687|Sweden - Mobile
+00467688|Sweden - Mobile
+00467689|Sweden - Mobile
+--
+0047|Norway
+--
+0047410|Norway - Mobile
+0047411|Norway - Mobile
+0047414|Norway - Mobile
+0047415|Norway - Mobile
+0047416|Norway - Mobile
+0047417|Norway - Mobile
+0047418|Norway - Mobile
+0047419|Norway - Mobile
+0047470|Norway - Mobile
+0047471|Norway - Mobile
+00474720|Norway - Mobile
+00474721|Norway - Mobile
+00474722|Norway - Mobile
+0047474|Norway - Mobile
+0047475|Norway - Mobile
+0047476|Norway - Mobile
+0047477|Norway - Mobile
+0047478|Norway - Mobile
+0047479|Norway - Mobile
+0047480|Norway - Mobile
+0047481|Norway - Mobile
+0047482|Norway - Mobile
+00474884|Norway - Mobile
+00474885|Norway - Mobile
+00474886|Norway - Mobile
+00474887|Norway - Mobile
+00474888|Norway - Mobile
+00474889|Norway - Mobile
+00474894|Norway - Mobile
+00474895|Norway - Mobile
+00474896|Norway - Mobile
+00474897|Norway - Mobile
+00474898|Norway - Mobile
+00474899|Norway - Mobile
+004790|Norway - Mobile
+004791|Norway - Mobile
+004794|Norway - Mobile
+004795|Norway - Mobile
+004796|Norway - Mobile
+004797|Norway - Mobile
+004799|Norway - Mobile
+00474|Norway - Mobile
+00479|Norway - Mobile
+004740|Norway - Mobile
+004742|Norway - Mobile
+004743|Norway - Mobile
+004744|Norway - Mobile
+004745|Norway - Mobile
+004746|Norway - Mobile
+00474777|Norway - Mobile
+00474778|Norway - Mobile
+00474779|Norway - Mobile
+0047483|Norway - Mobile
+0047484|Norway - Mobile
+0047485|Norway - Mobile
+0047486|Norway - Mobile
+0047487|Norway - Mobile
+0047488|Norway - Mobile
+0047489|Norway - Mobile
+004749|Norway - Mobile
+004792|Norway - Mobile
+004793|Norway - Mobile
+0047942|Norway - Mobile
+004798|Norway - Mobile
+--
+0048|Poland
+--
+004860|Poland|Poland
+004864|Poland|Poland
+004866|Poland|Poland
+004869|Poland|Poland
+004888|Poland|Poland
+004890|Poland|Poland
+004850|Poland|Poland
+004851|Poland|Poland
+0048787|Poland|Poland
+0048788|Poland|Poland
+0048781|Poland|Poland
+--
+0049|Germany
+--
+004915|Germany - Mobile
+004916|Germany - Mobile
+004917|Germany - Mobile
+--
+-
+005|South America
+-
+00500|Falkland Islands
+00501|Belize
+--
+005016|Belize - Mobile
+--
+00502|Guatemala
+--
+0050220|Guatemala - Mobile
+0050221|Guatemala - Mobile
+0050227|Guatemala - Mobile
+0050229|Guatemala - Mobile
+0050230|Guatemala - Mobile
+0050231|Guatemala - Mobile
+0050232|Guatemala - Mobile
+0050237|Guatemala - Mobile
+0050239|Guatemala - Mobile
+005024|Guatemala - Mobile
+005025|Guatemala - Mobile
+0050260|Guatemala - Mobile
+0050261|Guatemala - Mobile
+0050262|Guatemala - Mobile
+00502659|Guatemala - Mobile
+0050267|Guatemala - Mobile
+0050269|Guatemala - Mobile
+0050270|Guatemala - Mobile
+0050271|Guatemala - Mobile
+0050272|Guatemala - Mobile
+00502759|Guatemala - Mobile
+0050277|Guatemala - Mobile
+0050279|Guatemala - Mobile
+0050280|Guatemala - Mobile
+0050281|Guatemala - Mobile
+0050282|Guatemala - Mobile
+00502859|Guatemala - Mobile
+0050287|Guatemala - Mobile
+0050289|Guatemala - Mobile
+0050290|Guatemala - Mobile
+0050291|Guatemala - Mobile
+0050292|Guatemala - Mobile
+00502959|Guatemala - Mobile
+0050297|Guatemala - Mobile
+0050299|Guatemala - Mobile
+--
+00503|El Salvador
+--
+0050338|El Salvador - Mobile
+0050339|El Salvador - Mobile
+005037|El Salvador - Mobile
+005038|El Salvador - Mobile
+005039|El Salvador - Mobile
+--
+00504|Honduras
+--
+005043|Honduras - Mobile
+005048|Honduras - Mobile
+005049|Honduras - Mobile
+--
+00505|Nicaragua
+--
+0050514|Nicaragua - Mobile
+0050550|Nicaragua - Mobile
+005056|Nicaragua - Mobile
+0050577|Nicaragua - Mobile
+005058|Nicaragua - Mobile
+005059|Nicaragua - Mobile
+--
+00506|Costa Rica
+--
+005061|Costa Rica - Mobile
+00506283|Costa Rica - Mobile
+00506284|Costa Rica - Mobile
+005063|Costa Rica - Mobile
+00506712|Costa Rica - Mobile
+005068|Costa Rica - Mobile
+--
+00507|Panama
+--
+00507120|Panama - Mobile
+00507161|Panama - Mobile
+00507208|Panama - Mobile
+00507209|Panama - Mobile
+00507218|Panama - Mobile
+00507219|Panama - Mobile
+00507408|Panama - Mobile
+00507418|Panama - Mobile
+005075|Panama - Mobile
+005076|Panama - Mobile
+00507708|Panama - Mobile
+00507718|Panama - Mobile
+--
+00508|Saint-Pierre and Miquelon
+00509|Haiti
+--
+00509251|Haiti - Mobile
+005093|Haiti - Mobile
+005094|Haiti - Mobile
+005095|Haiti - Mobile
+005097|Haiti - Mobile
+00509851|Haiti - Mobile
+--
+0051|Peru
+--
+005119|Peru - Mobile
+00513496|Peru - Mobile
+00513497|Peru - Mobile
+00513499|Peru - Mobile
+0051419|Peru - Mobile
+0051429|Peru - Mobile
+0051439|Peru - Mobile
+0051449|Peru - Mobile
+0051450|Peru - Mobile
+0051519|Peru - Mobile
+0051529|Peru - Mobile
+0051539|Peru - Mobile
+0051543|Peru - Mobile
+0051549|Peru - Mobile
+0051569|Peru - Mobile
+0051619|Peru - Mobile
+0051629|Peru - Mobile
+0051639|Peru - Mobile
+0051649|Peru - Mobile
+0051659|Peru - Mobile
+0051669|Peru - Mobile
+0051679|Peru - Mobile
+0051729|Peru - Mobile
+0051739|Peru - Mobile
+0051749|Peru - Mobile
+0051769|Peru - Mobile
+0051829|Peru - Mobile
+0051839|Peru - Mobile
+0051849|Peru - Mobile
+0051949|Peru - Mobile
+--
+0052|Mexico
+--
+005233|Mexico - Mobile
+005255|Mexico - Mobile
+005281|Mexico - Mobile
+--
+0053|Cuba
+--
+0053213556|Cuba - Mobile
+0053213557|Cuba - Mobile
+0053213657|Cuba - Mobile
+0053213690|Cuba - Mobile
+005322688|Cuba - Mobile
+005322689|Cuba - Mobile
+0053234277|Cuba - Mobile
+0053234278|Cuba - Mobile
+0053234280|Cuba - Mobile
+0053234281|Cuba - Mobile
+0053234282|Cuba - Mobile
+005324417|Cuba - Mobile
+005324418|Cuba - Mobile
+005324419|Cuba - Mobile
+00532461|Cuba - Mobile
+005331466|Cuba - Mobile
+005331467|Cuba - Mobile
+005331468|Cuba - Mobile
+005331469|Cuba - Mobile
+005332259|Cuba - Mobile
+0053332668|Cuba - Mobile
+0053332669|Cuba - Mobile
+0053332671|Cuba - Mobile
+0053332674|Cuba - Mobile
+0053332675|Cuba - Mobile
+0053332676|Cuba - Mobile
+0053332677|Cuba - Mobile
+0053332678|Cuba - Mobile
+0053332679|Cuba - Mobile
+0053333088|Cuba - Mobile
+0053333089|Cuba - Mobile
+00534128|Cuba - Mobile
+00534138|Cuba - Mobile
+005342210|Cuba - Mobile
+0053432458|Cuba - Mobile
+005343255|Cuba - Mobile
+005345249|Cuba - Mobile
+005345279|Cuba - Mobile
+005345616|Cuba - Mobile
+005345679|Cuba - Mobile
+005346319|Cuba - Mobile
+005352|Cuba - Mobile
+005358|Cuba - Mobile
+00537263|Cuba - Mobile
+00537264|Cuba - Mobile
+00537268|Cuba - Mobile
+00537269|Cuba - Mobile
+00537270|Cuba - Mobile
+00537280|Cuba - Mobile
+00537281|Cuba - Mobile
+0053750|Cuba - Mobile
+0053751|Cuba - Mobile
+0053756|Cuba - Mobile
+00537752|Cuba - Mobile
+00537753|Cuba - Mobile
+0053785|Cuba - Mobile
+00537880|Cuba - Mobile
+00537885|Cuba - Mobile
+00537886|Cuba - Mobile
+00537887|Cuba - Mobile
+00537888|Cuba - Mobile
+00537889|Cuba - Mobile
+00537890|Cuba - Mobile
+00537891|Cuba - Mobile
+00537892|Cuba - Mobile
+005382749|Cuba - Mobile
+--
+0054|Argentina
+--
+00549|Argentina - Mobile
+--
+0055|Brazil
+--
+0055117|Brazil - Mobile
+0055118|Brazil - Mobile
+0055119|Brazil - Mobile
+0055127|Brazil - Mobile
+0055128|Brazil - Mobile
+0055129|Brazil - Mobile
+0055137|Brazil - Mobile
+0055138|Brazil - Mobile
+0055139|Brazil - Mobile
+0055147|Brazil - Mobile
+0055148|Brazil - Mobile
+0055149|Brazil - Mobile
+0055157|Brazil - Mobile
+0055158|Brazil - Mobile
+0055159|Brazil - Mobile
+0055167|Brazil - Mobile
+0055168|Brazil - Mobile
+0055169|Brazil - Mobile
+0055177|Brazil - Mobile
+0055178|Brazil - Mobile
+0055179|Brazil - Mobile
+0055187|Brazil - Mobile
+0055188|Brazil - Mobile
+0055189|Brazil - Mobile
+0055197|Brazil - Mobile
+0055198|Brazil - Mobile
+0055199|Brazil - Mobile
+0055217|Brazil - Mobile
+0055218|Brazil - Mobile
+0055219|Brazil - Mobile
+0055227|Brazil - Mobile
+0055228|Brazil - Mobile
+0055229|Brazil - Mobile
+0055247|Brazil - Mobile
+0055248|Brazil - Mobile
+0055249|Brazil - Mobile
+0055277|Brazil - Mobile
+0055278|Brazil - Mobile
+0055279|Brazil - Mobile
+0055287|Brazil - Mobile
+0055288|Brazil - Mobile
+0055289|Brazil - Mobile
+0055317|Brazil - Mobile
+0055318|Brazil - Mobile
+0055319|Brazil - Mobile
+0055327|Brazil - Mobile
+0055328|Brazil - Mobile
+0055329|Brazil - Mobile
+0055337|Brazil - Mobile
+0055338|Brazil - Mobile
+0055339|Brazil - Mobile
+0055347|Brazil - Mobile
+0055348|Brazil - Mobile
+0055349|Brazil - Mobile
+0055357|Brazil - Mobile
+0055358|Brazil - Mobile
+0055359|Brazil - Mobile
+0055369|Brazil - Mobile
+005537|Brazil - Mobile
+005538|Brazil - Mobile
+005539|Brazil - Mobile
+0055387|Brazil - Mobile
+0055388|Brazil - Mobile
+0055389|Brazil - Mobile
+0055399|Brazil - Mobile
+0055417|Brazil - Mobile
+0055418|Brazil - Mobile
+0055419|Brazil - Mobile
+0055427|Brazil - Mobile
+0055428|Brazil - Mobile
+0055429|Brazil - Mobile
+0055437|Brazil - Mobile
+0055438|Brazil - Mobile
+0055439|Brazil - Mobile
+0055447|Brazil - Mobile
+0055448|Brazil - Mobile
+0055449|Brazil - Mobile
+0055457|Brazil - Mobile
+0055458|Brazil - Mobile
+0055459|Brazil - Mobile
+0055467|Brazil - Mobile
+0055468|Brazil - Mobile
+0055469|Brazil - Mobile
+0055477|Brazil - Mobile
+0055478|Brazil - Mobile
+0055479|Brazil - Mobile
+0055487|Brazil - Mobile
+0055488|Brazil - Mobile
+0055489|Brazil - Mobile
+0055497|Brazil - Mobile
+0055498|Brazil - Mobile
+0055499|Brazil - Mobile
+0055517|Brazil - Mobile
+0055518|Brazil - Mobile
+0055519|Brazil - Mobile
+0055537|Brazil - Mobile
+0055538|Brazil - Mobile
+0055539|Brazil - Mobile
+0055547|Brazil - Mobile
+0055548|Brazil - Mobile
+0055549|Brazil - Mobile
+0055557|Brazil - Mobile
+0055558|Brazil - Mobile
+0055559|Brazil - Mobile
+0055627|Brazil - Mobile
+0055628|Brazil - Mobile
+0055629|Brazil - Mobile
+0055637|Brazil - Mobile
+0055638|Brazil - Mobile
+0055639|Brazil - Mobile
+0055647|Brazil - Mobile
+0055648|Brazil - Mobile
+0055649|Brazil - Mobile
+0055657|Brazil - Mobile
+0055658|Brazil - Mobile
+0055659|Brazil - Mobile
+0055667|Brazil - Mobile
+0055668|Brazil - Mobile
+0055669|Brazil - Mobile
+0055677|Brazil - Mobile
+0055678|Brazil - Mobile
+0055679|Brazil - Mobile
+0055687|Brazil - Mobile
+0055688|Brazil - Mobile
+0055689|Brazil - Mobile
+0055697|Brazil - Mobile
+0055698|Brazil - Mobile
+0055699|Brazil - Mobile
+0055717|Brazil - Mobile
+0055718|Brazil - Mobile
+0055719|Brazil - Mobile
+0055737|Brazil - Mobile
+0055738|Brazil - Mobile
+0055739|Brazil - Mobile
+0055747|Brazil - Mobile
+0055748|Brazil - Mobile
+0055749|Brazil - Mobile
+0055757|Brazil - Mobile
+0055758|Brazil - Mobile
+0055759|Brazil - Mobile
+0055777|Brazil - Mobile
+0055778|Brazil - Mobile
+0055779|Brazil - Mobile
+0055789|Brazil - Mobile
+0055797|Brazil - Mobile
+0055798|Brazil - Mobile
+0055799|Brazil - Mobile
+0055817|Brazil - Mobile
+0055818|Brazil - Mobile
+0055819|Brazil - Mobile
+0055827|Brazil - Mobile
+0055828|Brazil - Mobile
+0055829|Brazil - Mobile
+0055837|Brazil - Mobile
+0055838|Brazil - Mobile
+0055839|Brazil - Mobile
+0055847|Brazil - Mobile
+0055848|Brazil - Mobile
+0055849|Brazil - Mobile
+0055857|Brazil - Mobile
+0055858|Brazil - Mobile
+0055859|Brazil - Mobile
+0055867|Brazil - Mobile
+0055868|Brazil - Mobile
+0055869|Brazil - Mobile
+0055877|Brazil - Mobile
+0055878|Brazil - Mobile
+0055879|Brazil - Mobile
+0055887|Brazil - Mobile
+0055888|Brazil - Mobile
+0055889|Brazil - Mobile
+0055897|Brazil - Mobile
+0055898|Brazil - Mobile
+0055899|Brazil - Mobile
+0055917|Brazil - Mobile
+0055918|Brazil - Mobile
+0055919|Brazil - Mobile
+0055927|Brazil - Mobile
+0055928|Brazil - Mobile
+0055929|Brazil - Mobile
+0055937|Brazil - Mobile
+0055938|Brazil - Mobile
+0055939|Brazil - Mobile
+0055947|Brazil - Mobile
+0055948|Brazil - Mobile
+0055949|Brazil - Mobile
+0055957|Brazil - Mobile
+0055958|Brazil - Mobile
+0055959|Brazil - Mobile
+0055967|Brazil - Mobile
+0055968|Brazil - Mobile
+0055969|Brazil - Mobile
+0055977|Brazil - Mobile
+0055978|Brazil - Mobile
+0055987|Brazil - Mobile
+0055988|Brazil - Mobile
+0055989|Brazil - Mobile
+0055997|Brazil - Mobile
+0055998|Brazil - Mobile
+0055999|Brazil - Mobile
+--
+0056|Chile
+--
+0056568|Chile - Mobile
+0056569|Chile - Mobile
+0056600|Chile - Mobile
+00568|Chile - Mobile
+00569|Chile - Mobile
+--
+0057|Colombia
+--
+00573|Colombia - Mobile
+--
+0058|Venezuela
+--
+005841|Venezuela - Mobile
+--
+00590|Guadeloupe
+--
+00590690|Guadeloupe - Mobile
+--
+00591|Bolivia
+--
+005917|Bolivia - Mobile
+--
+00592|Guyana
+--
+005926|Guyana - Mobile
+--
+00593|Ecuador
+--
+0059335|Ecuador - Mobile
+0059336|Ecuador - Mobile
+0059337|Ecuador - Mobile
+00593915|Ecuador - Mobile
+00593916|Ecuador - Mobile
+00593917|Ecuador - Mobile
+00593918|Ecuador - Mobile
+00593919|Ecuador - Mobile
+0059393|Ecuador - Mobile
+0059394|Ecuador - Mobile
+00593968|Ecuador - Mobile
+00593969|Ecuador - Mobile
+0059397|Ecuador - Mobile
+00593991|Ecuador - Mobile
+00593993|Ecuador - Mobile
+00593994|Ecuador - Mobile
+00593995|Ecuador - Mobile
+00593996|Ecuador - Mobile
+0059398|Ecuador - Mobile
+00593990|Ecuador - Mobile
+00593992|Ecuador - Mobile
+00593997|Ecuador - Mobile
+00593998|Ecuador - Mobile
+00593999|Ecuador - Mobile
+005938|Ecuador - Mobile
+005939|Ecuador - Mobile
+--
+00594|French Guiana
+--
+00594694|French Guiana - Mobile
+--
+00595|Paraguay
+--
+0059596|Paraguay - Mobile
+0059597|Paraguay - Mobile
+0059598|Paraguay - Mobile
+0059599|Paraguay - Mobile
+--
+00596|Martinique
+--
+00596696|Martinique - Mobile
+--
+00597|Suriname
+--
+005978|Suriname - Mobile
+0059797|Suriname - Mobile
+0059798|Suriname - Mobile
+--
+00598|Uruguay
+--
+005989|Uruguay - Mobile
+--
+005993|Sint Eustatius
+005994|Saba
+005997|Bonaire
+005999|Cura√ßao
+-
+006|Southeast Asia & Oceania
+-
+0060|Malaysia
+--
+00601|Malaysia - Mobile
+--
+0061|Australia
+--
+0061071|Australia - Mobile
+006111|Australia - Mobile
+006113|Australia - Mobile
+006114|Australia - Mobile
+006115|Australia - Mobile
+006116|Australia - Mobile
+006117|Australia - Mobile
+006118|Australia - Mobile
+006119|Australia - Mobile
+00614|Australia - Mobile
+00615|Australia - Mobile
+--
+006189162|Cocos Islands
+006189164|Christmas Island
+0062|Indonesia
+--
+006213|Indonesia - Mobile
+006228|Indonesia - Mobile
+00628|Indonesia - Mobile
+--
+0063|Philippines
+--
+00639|Philippines - Mobile
+--
+0064|New Zealand
+--
+00642|New Zealand - Mobile
+006483|New Zealand - Mobile
+006484|New Zealand - Mobile
+006487|New Zealand - Mobile
+--
+0065|Singapore
+--
+00658|Singapore - Mobile
+00659|Singapore - Mobile
+--
+0066|Thailand
+--
+00661|Thailand - Mobile
+006630|Thailand - Mobile
+006631|Thailand - Mobile
+006633|Thailand - Mobile
+006640|Thailand - Mobile
+006641|Thailand - Mobile
+006646|Thailand - Mobile
+006647|Thailand - Mobile
+006648|Thailand - Mobile
+006649|Thailand - Mobile
+006650|Thailand - Mobile
+006651|Thailand - Mobile
+006652|Thailand - Mobile
+006657|Thailand - Mobile
+006658|Thailand - Mobile
+006659|Thailand - Mobile
+00666|Thailand - Mobile
+006670|Thailand - Mobile
+006671|Thailand - Mobile
+006672|Thailand - Mobile
+006678|Thailand - Mobile
+006679|Thailand - Mobile
+00668|Thailand - Mobile
+00669|Thailand - Mobile
+--
+00670|East Timor
+--
+006707|East Timor - Mobile
+--
+00672|Australian External Territories
+006721|Australian Antarctic Territory
+006723|Norfolk Island
+--
+0067234|Norfolk Island - Mobile
+0067235|Norfolk Island - Mobile
+0067236|Norfolk Island - Mobile
+0067237|Norfolk Island - Mobile
+--
+00673|Brunei
+--
+00673227|Brunei - Mobile
+006738|Brunei - Mobile
+--
+00674|Nauru
+--
+00674555|Nauru - Mobile
+006748|Nauru - Mobile
+--
+00675|Papua New Guinea
+--
+00675278|Papua New Guinea - Mobile
+00675279|Papua New Guinea - Mobile
+00675644|Papua New Guinea - Mobile
+0067568|Papua New Guinea - Mobile
+006756|Papua New Guinea - Mobile
+--
+00676|Tonga
+--
+0067611|Tonga - Mobile
+0067612|Tonga - Mobile
+0067613|Tonga - Mobile
+0067614|Tonga - Mobile
+0067615|Tonga - Mobile
+0067616|Tonga - Mobile
+0067617|Tonga - Mobile
+0067618|Tonga - Mobile
+0067619|Tonga - Mobile
+0067646|Tonga - Mobile
+0067647|Tonga - Mobile
+0067648|Tonga - Mobile
+0067649|Tonga - Mobile
+0067653|Tonga - Mobile
+0067654|Tonga - Mobile
+0067655|Tonga - Mobile
+0067656|Tonga - Mobile
+0067657|Tonga - Mobile
+0067658|Tonga - Mobile
+0067659|Tonga - Mobile
+0067663|Tonga - Mobile
+0067664|Tonga - Mobile
+0067665|Tonga - Mobile
+0067666|Tonga - Mobile
+0067667|Tonga - Mobile
+0067668|Tonga - Mobile
+0067675|Tonga - Mobile
+0067676|Tonga - Mobile
+0067677|Tonga - Mobile
+0067678|Tonga - Mobile
+0067687|Tonga - Mobile
+0067688|Tonga - Mobile
+0067689|Tonga - Mobile
+--
+00677|Solomon Island
+--
+006771|Solomon Island - Mobile
+006777|Solomon Island - Mobile
+006778|Solomon Island - Mobile
+006779|Solomon Island - Mobile
+--
+00678|Vanuatu
+--
+006784|Vanuatu - Mobile
+006785|Vanuatu - Mobile
+--
+00679|Fiji
+--
+006792141|Fiji - Mobile
+006792142|Fiji - Mobile
+006799|Fiji - Mobile
+--
+00680|Palau
+00681|Wallis and Futuna
+00682|Cook Island
+--
+0068250|Cook Island - Mobile
+0068251|Cook Island - Mobile
+0068252|Cook Island - Mobile
+0068253|Cook Island - Mobile
+0068254|Cook Island - Mobile
+0068255|Cook Island - Mobile
+0068256|Cook Island - Mobile
+0068258|Cook Island - Mobile
+006826|Cook Island - Mobile
+--
+00683|Niue
+00685|Samoa
+00686|Kiribati
+--
+0068630|Kiribati - Mobile
+006869|Kiribati - Mobile
+--
+00687|New Caledonia
+--
+0068776|New Caledonia - Mobile
+0068777|New Caledonia - Mobile
+0068778|New Caledonia - Mobile
+0068779|New Caledonia - Mobile
+0068780|New Caledonia - Mobile
+0068781|New Caledonia - Mobile
+0068782|New Caledonia - Mobile
+0068783|New Caledonia - Mobile
+0068784|New Caledonia - Mobile
+0068785|New Caledonia - Mobile
+0068786|New Caledonia - Mobile
+0068787|New Caledonia - Mobile
+0068791|New Caledonia - Mobile
+0068792|New Caledonia - Mobile
+0068793|New Caledonia - Mobile
+0068794|New Caledonia - Mobile
+0068795|New Caledonia - Mobile
+0068796|New Caledonia - Mobile
+0068797|New Caledonia - Mobile
+--
+00688|Tuvalu
+00689|French Polynesia
+00690|Tokelau
+00691|Federated States of Micronesia
+--
+0069197|Federated States of Micronesia - Mobile
+--
+00692|Marshall Islands
+-
+007|Russia
+-
+007|Russia
+--
+0079|Russia - Mobile
+00709|Russia - Mobile
+00734|Russia - Mobile
+00747|Russia - Mobile
+00781|Russia - Mobile
+--
+0076|Kazakhstan
+0077|Kazakhstan
+--
+00730|Kazakhstan - Mobile
+00731|Kazakhstan - Mobile
+00732|Kazakhstan - Mobile
+00733|Kazakhstan - Mobile
+00770|Kazakhstan - Mobile
+--
+007840|Abkhazia
+007940|Abkhazia
+-
+008|East Asia & Special Services
+-
+00800|International Freephone
+00808|Shared Cost Services
+0081|Japan
+--
+008170|Japan - Mobile
+008180|Japan - Mobile
+008190|Japan - Mobile
+--
+0082|South Korea
+--
+00821|South Korea - Mobile
+--
+0084|Vietnam
+--
+00849|Vietnam - Mobile
+--
+00850|North Korea
+00852|Hong Kong
+--
+0085217|Hong Kong - Mobile
+008526|Hong Kong - Mobile
+008527|Hong Kong - Mobile
+008529|Hong Kong - Mobile
+--
+00853|Macau
+--
+008536|Macau - Mobile
+00853901|Macau - Mobile
+--
+00855|Cambodia
+--
+008551|Cambodia - Mobile
+008559|Cambodia - Mobile
+--
+00856|Laos
+--
+0085620|Laos - Mobile
+--
+0086|China
+--
+008613|China - Mobile
+0086153|China - Mobile
+0086159|China - Mobile
+0086568|China - Mobile
+0086569|China - Mobile
+0086886|China - Mobile
+--
+00870|Inmarsat
+00878|Universal Personal Telecommunications
+00880|Bangladesh
+--
+008801|Bangladesh - Mobile
+--
+00881|Global Mobile Satellite System
+00882|International Networks
+00883|International Networks
+00886|Taiwan
+--
+0088660|Taiwan - Mobile
+0088670|Taiwan - Mobile
+008869|Taiwan - Mobile
+--
+-
+009|Central, South & Western Asia
+-
+0090|Turkey
+--
+0090542851|Turkey - Mobile
+0090542852|Turkey - Mobile
+0090542853|Turkey - Mobile
+0090542854|Turkey - Mobile
+0090542855|Turkey - Mobile
+0090542856|Turkey - Mobile
+0090542857|Turkey - Mobile
+0090542858|Turkey - Mobile
+0090542871|Turkey - Mobile
+0090542872|Turkey - Mobile
+0090542873|Turkey - Mobile
+0090542874|Turkey - Mobile
+0090542882|Turkey - Mobile
+0090542883|Turkey - Mobile
+0090542884|Turkey - Mobile
+0090542885|Turkey - Mobile
+0090542886|Turkey - Mobile
+0090542889|Turkey - Mobile
+009054|Turkey - Mobile
+009053383|Turkey - Mobile
+009053384|Turkey - Mobile
+009053385|Turkey - Mobile
+009053386|Turkey - Mobile
+009053387|Turkey - Mobile
+009050|Turkey - Mobile
+0090551|Turkey - Mobile
+0090552|Turkey - Mobile
+0090553|Turkey - Mobile
+0090554|Turkey - Mobile
+0090555|Turkey - Mobile
+0090556|Turkey - Mobile
+0090559|Turkey - Mobile
+00905|Turkey - Mobile
+009053|Turkey - Mobile
+--
+0090392|Northern Cyprus
+--
+009039285|Northern Cyprus - Mobile
+00905338|Northern Cyprus - Mobile
+--
+0091|India
+--
+00917|India - Mobile
+00918|India - Mobile
+00919|India - Mobile
+--
+0092|Pakistan
+--
+00923|Pakistan - Mobile
+--
+0093|Afghanistan
+--
+00937|Afghanistan - Mobile
+00938|Afghanistan - Mobile
+--
+0094|Sri Lanka
+--
+009419|Sri Lanka - Mobile
+00947|Sri Lanka - Mobile
+--
+0095|Burama
+00960|Maldives
+--
+009607|Maldives - Mobile
+009609|Maldives - Mobile
+--
+00961|Lebanon
+--
+009613|Lebanon - Mobile
+0096170|Lebanon - Mobile
+0096171|Lebanon - Mobile
+--
+00962|Jordan
+--
+009621544|Jordan - Mobile
+00962164|Jordan - Mobile
+009627|Jordan - Mobile
+--
+00963|Syria
+--
+0096392|Syria - Mobile
+0096393|Syria - Mobile
+0096394|Syria - Mobile
+0096395|Syria - Mobile
+0096396|Syria - Mobile
+0096396|Syria - Mobile
+0096397|Syria - Mobile
+009639|Syria - Mobile
+--
+00964|Iraq
+--
+0096473|Iraq - Mobile
+0096475|Iraq - Mobile
+0096477|Iraq - Mobile
+0096478|Iraq - Mobile
+0096479|Iraq - Mobile
+009647701|Iraq - Mobile
+009647702|Iraq - Mobile
+009647703|Iraq - Mobile
+009647704|Iraq - Mobile
+009647705|Iraq - Mobile
+009647706|Iraq - Mobile
+009647801|Iraq - Mobile
+009647802|Iraq - Mobile
+009647803|Iraq - Mobile
+009647804|Iraq - Mobile
+009647901|Iraq - Mobile
+009647902|Iraq - Mobile
+009647903|Iraq - Mobile
+009647904|Iraq - Mobile
+00964750|Iraq - Mobile
+00964730|Iraq - Mobile
+--
+00965|Kuwait
+--
+009656|Kuwait - Mobile
+009657|Kuwait - Mobile
+009659|Kuwait - Mobile
+--
+00966|Saudi Arabia
+--
+00966135|Saudi Arabia - Mobile
+009665|Saudi Arabia - Mobile
+009668|Saudi Arabia - Mobile
+0096656|Saudi Arabia - Mobile
+--
+00967|Yemen
+--
+009677|Yemen - Mobile
+--
+00968|Oman
+--
+00968721|Oman - Mobile
+009689|Oman - Mobile
+--
+00970|Palestina
+--
+0097059|Palestina - Mobile
+0097259|Palestina - Mobile
+--
+00971|United Arab Emirates
+--
+0097150|United Arab Emirates - Mobile
+0097155|United Arab Emirates - Mobile
+--
+00972|Israel
+--
+0097205|Israel - Mobile
+0097206|Israel - Mobile
+009725|Israel - Mobile
+009726|Israel - Mobile
+0097252|Israel - Mobile
+0097253|Israel - Mobile
+0097258|Israel - Mobile
+0097264|Israel - Mobile
+0097265|Israel - Mobile
+--
+00973|Bahrain
+--
+009733|Bahrain - Mobile
+009736|Bahrain - Mobile
+009739|Bahrain - Mobile
+--
+00974|Qatar
+--
+009741245|Qatar - Mobile
+0097421|Qatar - Mobile
+0097422|Qatar - Mobile
+0097428|Qatar - Mobile
+009745|Qatar - Mobile
+0097465|Qatar - Mobile
+0097466|Qatar - Mobile
+--
+00975|Bhutan
+--
+0097517|Bhutan - Mobile
+009759|Bhutan - Mobile
+--
+00976|Mongolia
+--
+0097691|Mongolia - Mobile
+0097696|Mongolia - Mobile
+0097699|Mongolia - Mobile
+--
+00977|Nepal
+--
+0097798|Nepal - Mobile
+--
+00979|International Premium Rate Service
+0098|Iran
+--
+00989|Iran - Mobile
+--
+00991|ITPCS
+00992|Tajikistan
+--
+00992372|Tajikistan - Mobile
+009929|Tajikistan - Mobile
+--
+00993|Turkmenistan
+--
+009931230|Turkmenistan - Mobile
+009931431|Turkmenistan - Mobile
+009932221|Turkmenistan - Mobile
+009933221|Turkmenistan - Mobile
+009934221|Turkmenistan - Mobile
+009935223|Turkmenistan - Mobile
+009936|Turkmenistan - Mobile
+--
+00994|Azerbaijan
+--
+0099440|Azerbaijan - Mobile
+0099447|Azerbaijan - Mobile
+0099455|Azerbaijan - Mobile
+0099470|Azerbaijan - Mobile
+0099450|Azerbaijan - Mobile
+--
+00995|Georgia
+--
+0099598|Georgia - Mobile
+0099599|Georgia - Mobile
+0099555|Georgia - Mobile
+0099577|Georgia - Mobile
+0099593|Georgia - Mobile
+009953226|Georgia - Mobile
+009953297|Georgia - Mobile
+0099590|Georgia - Mobile
+0099595|Georgia - Mobile
+0099597|Georgia - Mobile
+--
+0099534|South Ossetia
+0099544|Abkhazia
+00996|Kyrgyzstan
+--
+0099631258|Kyrgyzstan - Mobile
+0099631295|Kyrgyzstan - Mobile
+0099631296|Kyrgyzstan - Mobile
+0099631297|Kyrgyzstan - Mobile
+0099631298|Kyrgyzstan - Mobile
+0099650|Kyrgyzstan - Mobile
+0099651|Kyrgyzstan - Mobile
+0099652|Kyrgyzstan - Mobile
+00996543|Kyrgyzstan - Mobile
+00996555|Kyrgyzstan - Mobile
+--
+00998|Uzbekistan
+--
+009989|Uzbekistan - Mobile
+--
+-

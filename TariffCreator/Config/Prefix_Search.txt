@@ -1,0 +1,851 @@
+﻿Germany	0049
+USA	001
+Africa	002
+Europa1	003
+Europa2	004
+S.America	005
+Asien	006
+AFGHANISTAN	0093
+Bangladesch	00880
+ALASKA	001907
+ALBANIA	00355
+Capo Verde	00238
+ALGERIA	00213
+Ägypten	0020
+Albanien	00355
+Algerien	00213
+Amerikanische Jungferninseln	00340
+Amerikanisch-Samoa	00684
+Antigua und Barbuda	001268
+Äquatorialguinea	00240
+Argentinien	0054
+Armenien	00374
+Aserbaidschan	00994
+Äthiopien	00251
+AMERICAN SAMOA	001684
+ANDORRA	00376
+Australien	0061
+Belgien	0032
+Belgien-Brüssel	00322
+Bolivien	00591
+ANGOLA	00244
+Bosnien und Herzegowina	00387
+ANGUILLA	001264
+Botsuana	00267
+Brasilien	0055
+Britische Jungferninseln	00248
+Brunei Darussalam	00673
+Bulgarien	00359
+Caymaninseln	001345
+Cookinseln	00682
+Dänemark	0045
+Timor-Leste	00670
+Dominikanische Republik	00849
+Dschibuti	00253
+Estland	00372
+Falklandinseln	00500
+Färöer	00298
+ANTARCTIC	00672
+ANTIGUA & BARBUDA	001268
+Fidschi	00679
+Finnland	00358
+Frankreich	0033
+Gabun	00241
+Georgien	00995
+Griechenland	0030
+Grönland	00299
+Großbritannien	0044
+Australia External Territories	00672
+Indien	0091
+Indonesien	0062
+ARGENTINA	0054
+Irland	00353
+Guinea Bissau	00245
+Färöer Inseln	00298
+Großbritanien	0044
+Mayotte & Comoros	00269
+ARMENIA	00374
+Irland-Dublin	003531
+Österreich	0043
+Bosnien-Herzegowina	00387
+Faroe Islands	00298
+Sao Tome	00239
+ARUBA	00297
+ASCENSION	00247
+AUSTRALIA	0061
+Island	00354
+Italien	0039
+Jamaika	00876
+Jordanien	00962
+Kambodscha	00855
+Kanada	001
+Kasachstan	007
+Katar	00974
+Kirgisistan	00996
+Kolumbien	0057
+Komoren	00269
+Kongo, Demokratische Republik	00243
+Korea, Demokratische Volksrepublik	00850
+Korea, Republik	0082
+Kroatien	00385
+Kuba	0053
+Kuba-Guantanamo	005321
+Lettland	00371
+Libyen	00218
+Litauen	00370
+Malediven	00960
+Marokko	00212
+Marshallinseln	00692
+Mauretanien	00222
+Mazedonien	00389
+Mexiko	0052
+Mikronesien	00691
+Moldau	00373
+Mongolei	00976
+Neukaledonien	00687
+Neuseeland	0064
+Niederlande	0031
+Niederlande-Amsterdam Antillen	00599
+Niederländische	0031
+Niue-Inseln	00683
+Norwegen	0047
+Antarktis	0067213
+Norfolkinseln	00672
+Maroko	00212
+Russland	007
+Südkorea	0082
+Niederländische Antillen	00599
+Bahrein	00973
+Französisch Guayana	00594
+Guantanamo	005321
+Tristan da Cunha	002908
+Belgio	0032
+Danimarca	0045
+Francia	0033
+Germania	0049
+Irlanda	00353
+Pesi Bassi	0031
+Portogallo	00351
+Spagna	0034
+Svezia	0046
+Svizzera	0041
+Regno Unito	0044
+Finlandia	00358
+Gibilterra	00350
+Grecia	0030
+Islanda	00354
+Lussemburgo	00352
+Norvegia	0047
+Polonia	0048
+Repubblica Ceca	00420
+Ungheria	0036
+Croazia	00385
+Slovacchia	00421
+Cipro	00357
+Lituania	00370
+Ucraina	00380
+Bosnia	00387
+Cipro (dip. Turchia)	0090
+Lettonia	00371
+Turchia	0090
+Moldavia	00373
+Cina	0086
+Paesi Bassi	0031
+Corea del Sud	0082
+Israele	00972
+AZERBAIJAN	00994
+Giappone	0081
+Porto Rico	001
+Nuova Zelanda	0064
+Perù	0051
+Guadalupe	00590
+Isole Vergini (USA)	001
+Martinica	00596
+Messico	0052
+Bosnia and Herzegovina	00387
+BAHAMAS	001242
+Papua Neuguinea	00675
+Philippinen	0063
+Polen	0048
+Rumänien	0040
+Russische Föderation	007
+Saipan	001670
+Salomonen	00677
+Samoa	00685
+Sankt Helena	00290
+São Tomé und Príncipe	00239
+Saudi-Arabien	00966
+Schweden	0046
+Serbien	00381
+Seyschellen	00248
+Simbabwe	00263
+Singapur	0065
+Slowakei	00421
+Slowenien	00386
+Spanien	0034
+St. Kitts und Nevis	001869
+St. Pierre und Miquelon	00508
+St. Vincent und die Grenadinen	001784
+Südafrika	0027
+BAHRAIN	00973
+Swasiland	00268
+Syrien	00963
+Martinica	00596
+Northern Mariana	001
+Sud Africa	0027
+Tailandia	0066
+Cile	0056
+BANGLADESH	00880
+Guiana Francese	00594
+Libano	00961
+Samoa Amer.	001
+BARBADOS	001246
+Is.Vergini (UK)	001
+Brasile	0055
+Repubblica Dominicana	001
+Filippine	0063
+St Pierre e Miquelon	00508
+Trinidad e Tobago	001
+Antigua Barbuda	001
+Isole Cayman	001345
+Costa d'Avorio	00225
+Egitto	0020
+Isole Faroe	00298
+Giamaica	001
+Giordania	00962
+Mozambico	00258
+Antille Olandesi	00599
+Maldive	00960
+French Reunion	00262
+BELARUS	00375
+Tadschikistan	00992
+Trinidad und Tobago	001868
+Tschad	00235
+Tschechische Republik	00420
+Somalia Democratic Republic	00252
+BELGIUM	0032
+Tunesien	00216
+Türkei	0090
+Turks- und Caicosinseln	001649
+Ungarn	0036
+Usbekistan	00998
+Vatikanstadt	00379
+Rest of the World	00
+BELIZE	00501
+Vereinigte Arabische Emirate	00971
+Vereinigte Staaten von Amerika	001
+Wallis und Futuna	00681
+Weißrussland	00375
+Zentralafrikanische Republik	00236
+BENIN	00229
+Zypern	00357
+Zypern, Türkischer Teil	0090
+St Kitts e Nevis	001869
+Turks e Caicos	001649
+Bielorussia	00375
+Cambogia	00855
+Camerun	00237
+Guinea Equatoriale	00240
+Polinesia Francese	00689
+Maldive	00960
+Arabia Saudita	00966
+St Vincent Grenadines	001784
+Emirati Arabi Uniti	00971
+Libia	00218
+Ciad	00235
+Congo Rep. Democratica	00242
+Gibuti	00253
+Isole Marshall	00692
+Nuova Caledonia	00687
+Samoa Occidentali	00685
+Santa Lucia	001758
+Siria	00963
+Australia Ex Territori	00672
+Australia Ex Norfolk	006723
+Africa Centrale	00236
+Isole Cook	00682
+Cuba-Guantanamo Bay	005399
+Timor Est	00670
+Isole Falkland	00500
+Groenlandia	00299
+Corea del Nord	00850
+BERMUDA	001441
+Isole Niue	00683
+Papua Nuova Guinea	00675
+Sao Tome e Principe	00239
+Isole Solomone	00677
+Sant'Elena	003970
+Wallis e Futuna	00681
+BHUTAN	00975
+Ascension Island	00247
+Cape Verde Islands	00238
+Congo Democratic Republic	00243
+Northern Marianas	001670
+BOLIVIA	00591
+St. Martin	00590
+St. Vincent & Grenadines	001784
+UK	0044
+Wallis & Futuna	00681
+BOLIVIA - Cities	0059144
+Faroe-Islands	00298
+Great Britain	0044
+Bosnia-Herzigovina	00387
+Yugoslavia	0038
+British Virgin Isl.	001340
+Brunei 	00673
+Comoro Isl.	00269
+Congo (Republic of)	00242
+Faroe Isl. (Denmark)	00298
+Guinea Conakri	00224
+Hungary 	0036
+Laos ( P.D.R. )	00856
+Mariana Isl. 	001670
+Marshall Isl.	00692
+Nevis	001869
+New Zeal Fix	0064
+Portugal 	00351
+Samoa Western	00685
+Slovenia Republic	00386
+St Lucia	001758
+St Pierre & Miquelon	00508
+St.Vincent-Grenadines	001784
+Us. Virgin Islands	001340
+Yemen Arab. Republic (North)	00967
+Yemen People Dem.Rep (South)	00967
+Greenland (Denmark)	00299
+Niue Isl.	00683
+Solomon Isl.	00677
+Ascension Isl.	00247
+Cook Isl.	00682
+Sao Tome Y Principe	00239
+St.Helena	00290
+Zanzibar	0025524
+Falkland Isl.	00500
+Faroe Isl.	00298
+Mariana Isl.	001670
+BOSNIA - REP. SRPSKA	003874931
+BOSNIA HERZEGOVINA	00387
+BOTSWANA	00267
+BOTSWANA * Mobile	002677
+BRAZIL	0055
+BRITISH VIRGIN ISLANDS	001284
+BRUNEI	00673
+BULGARIA	00359
+BULGARIA - SOFIA	003592
+BURKINA FASO	00226
+BURKINA FASO * Mobile	0022660
+BURUNDI	00257
+BURUNDI * Mobile	002579
+CAMBODIA	00855
+CAMBODIA * Mobile	008551
+CAMEROON	00237
+CAMEROON * Mobile MTN	002377
+CANADA	001
+CAPE VERDE	00238
+CAYMAN ISLANDS	001345
+CENTRAL AFRICAN REPUBLIC	00236
+CHAD	00235
+CHILE	0056
+CHINA	0086
+COLOMBIA	0057
+COMOROS	00269
+CONGO	00242
+CONGO DEM. REP.	00243
+CONGO DEM. REP. * Mobile	00243120
+COOK ISLANDS	00682
+COOK ISLANDS * Mobile	006825
+COSTA RICA	00506
+COSTA RICA * Mobile	00506283
+COTE D IVOIRE	00225
+COTE D IVOIRE * Mobile	002250
+CROATIA	00385
+CROATIA * Mobile	0022590409
+CUBA	0053
+CUBA * Mobile	00535
+CYPRUS	00357
+CYPRUS * Mobile	0035712
+CZECH REPUBLIC	00420
+DENMARK	0045
+DIEGO GARCIA	00246
+DJIBOUTI	00253
+DOMINICA	001767
+DOMINICAN REPUBLIC	001809
+EAST TIMOR	00670
+ECUADOR	00593
+EGYPT	0020
+EL SALVADOR	00503
+EMSAT	0088213
+EQUATORIAL GUINEA	00240
+ERITREA	00291
+ESTONIA	00372
+ETHIOPIA	00251
+FALKLAND ISLANDS	00500
+FEROER ISLANDS	00298
+FIJI	00679
+FINLAND	00358
+FRANCE	0033
+FRENCH GUIANA	00594
+FRENCH POLYNESIA	00689
+GABON	00241
+GAMBIA	00220
+GEORGIA	00995
+GERMANY	0049
+GHANA	00233
+GIBRALTAR	00350
+GLOBSTAR(8818)	008818
+GLOBSTAR(88180)	0088180
+GREECE	0030
+GREENLAND	00299
+GRENADA	001473
+GUADELOUPE	00590
+GUAM	001671
+GUATEMALA	00502
+GUINEA	00224
+GUINEA - BISSAU	00245
+GUYANA	00592
+HAITI	00509
+HAWAII	001808
+HONDURAS	00504
+HONGKONG	00852
+HUNGARY	0036
+ICELAND	00354
+INDIA	0091
+INDONESIA	0062
+INM - INMARSAT A	0087
+INM - INMARSAT AERO	008705
+INM - INMARSAT B - HSD	008703
+INM - INMARSAT BGAN	0087077
+INM - INMARSAT BGAN - HSD	0087078
+INM - INMARSAT M	008706
+INM - INMARSAT M - HSD	0087060
+INM - INMARSAT MINI - M	0087076
+INTERNATIONAL FREECALL	00800
+INTERNATIONAL NETWORKS	00882
+IRAN	0098
+IRAN - TEHERAN	009821
+IRAQ	00964
+IRAQ - BAGHDAD	009641
+IRELAND	00353
+IRELAND - DUBLIN	003531
+ISRAEL	00972
+ITALY	0039
+JAMAICA	001876
+JAPAN	0081
+JORDAN	00962
+KAZAKHSTAN	007300
+KAZAKHSTAN	00731
+KAZAKHSTAN	00732
+KAZAKHSTAN	007330
+KAZAKHSTAN	007331
+KAZAKHSTAN	007332
+KAZAKHSTAN	007334
+KAZAKHSTAN	007335
+KAZAKHSTAN	007337
+KAZAKHSTAN	007338
+KAZAKHSTAN	007339
+KAZAKHSTAN	00757
+KAZAKHSTAN	0077
+KAZAKHSTAN	0078432
+KAZAKHSTAN - ALMATY	007727
+KENYA	00254
+KENYA - NAIROBI	0025420
+KIRIBATI	00686
+KOREA DEM. REP.	00850
+KOREA REP.	0082
+KUWAIT	00965
+KYRGYZISTAN	00996
+KYRGYZISTAN - BISHKEK	00996312
+LAOS	00856
+LATVIA	00371
+LEBANON	00961
+LESOTHO	00266
+LIBERIA	00231
+LIBYA	00218
+LIECHTENSTEIN	00423
+LITHUANIA	00370
+LUXEMBOURG	00352
+MACAU	00853
+MACEDONIA	00389
+MACEDONIA - SKOPJE	003892
+MADAGASCAR	00261
+MALAWI	00265
+MALAYSIA	0060
+MALDIVES	00960
+MALI	00223
+MALTA	00356
+MARSHALL ISLANDS	00692
+MARTINIQUE	00596
+MAURITANIA	00222
+MAURITIUS	00230
+MAYOTTE	00262269
+MEXICO	0052
+MICRONESIA	00691
+MOLDOVA	00373
+MONACO	00377
+MONGOLIA	00976
+MONTENEGRO	00382
+MONTSERRAT	001664
+MOROCCO	00212
+MOZAMBIQUE	00258
+MYANMAR	0095
+NAMIBIA	00264
+NAURU	00674
+NEPAL	00977
+NETHERLANDS	0031
+NETHERLANDS ANTILLES	00599
+NEW CALEDONIA	00687
+NEW ZEALAND	0064
+NICARAGUA	00505
+NIGER	00227
+NIGERIA	00234
+NIUE	00683
+NORFOLK ISLANDS	006723
+NORTHERN MARIANA ISLANDS	001670
+NORWAY	0047
+OMAN	00968
+PAKISTAN	0092
+PALAU	00680
+PALESTINE	00970
+PANAMA	00507
+PAPUA NEW GUINEA	00675
+PARAGUAY	00595
+PARAGUAY - ASUNCION	0059521
+PERU	0051
+PHILIPPINES	0063
+PHILIPPINES - MANILA	00632
+POLAND	0048
+PORTUGAL	00351
+PUERTO RICO	001787
+PUERTO RICO	001939
+QATAR	00974
+REUNION	00262
+ROMANIA	0040
+RUSSIA	007
+RWANDA	00250
+SAN MARINO	00378
+SAO TOME & PRINCIPE	00239
+SAUDI ARABIA	00966
+SENEGAL	00221
+SERBIA	00381
+SERBIA - BELGRAD	0038111
+SEYCHELLES	00248
+SIERRA LEONE	00232
+SIERRA LEONE - FREETOWN	0023222
+SINGAPORE	0065
+SINT MAARTEN	001721
+SLOVAK REPUBLIC	00421
+SLOVAK REPUBLIC - BRATISLAVA	004212
+SLOVENIA	00386
+SOLOMON ISLANDS	00677
+SOMALIA	00252
+SOUTH AFRICA	0027
+SOUTH SUDAN	00211
+SPAIN	0034
+SRI LANKA	0094
+ST. HELENA	00290
+ST. KITTS & NEVIS	001869
+ST. LUCIA	001758
+ST. PIERRE & MIQUELON	00508
+ST. VINCENT & THE GRENADINES	001784
+SUDAN	00249
+SURINAME	00597
+SWAZILAND	00268
+SWEDEN	0046
+SWEDEN - STOCKHOLM	00468
+SWITZERLAND	0041
+SYRIA	00963
+TAIWAN	00886
+TAJIKISTAN	00992
+TANZANIA	00255
+THAILAND	0066
+THAILAND - BANGKOK	00662
+TOGO	00228
+TOKELAU	00690
+TONGA	00676
+TRINIDAD & TOBAGO	001868
+TUNISIA	00216
+TURKEY	0090
+TURKEY - KONYA	0090333
+TURKEY - NORTHERN CYPRUS	0090392
+TURKMENISTAN	00993
+TURKS & CAICOS ISLANDS	001649
+TUVALU	00688
+UGANDA	00256
+UKRAINE	00380
+UNITED ARAB EMIRATES	00971
+UNITED KINGDOM	0044
+URUGUAY	00598
+URUGUAY - MONTEVIDEO	005982
+US VIRGIN ISLANDS	001340
+UZBEKISTAN	00998
+VANUATU	00678
+VATICAN CITY STATE	00379
+VATICAN CITY STATE	003906698
+VENEZUELA	0058
+VENEZUELA - CARACAS	0058212
+VIETNAM	0084
+VIETNAM - HANOI	00844
+WALLIS & FUTUNA ISLANDS	00681
+WESTERN SAMOA	00685
+YEMEN	00967
+ZAMBIA	00260
+ZIMBABWE	00263
+Antigua	001268
+Austria	0043
+Bosnia-Herzegovina	00387
+Brit. Virgin Islands	00284
+Cayman	00345
+Cayman Island	00345
+Central Africa	00236
+comore	00269
+comores	00269
+Congo Dem.Rep.	00243
+Elfenbeinküste	00225
+Côte d'Ivoire	00225
+Czech Rep.	00420
+Falkland Island	00500
+Feroe Islands	00298
+French Guyana	00594
+Guinea-Bissau	00245
+Kyrghyzstan	00996
+Macao	00835
+Monserrat	001664
+Mariana Islands	001670
+Myanmar (Burma)	0095
+Netherland Antilles	00599
+Niue Island	00683
+Norfolk Isl.	00672
+North Korea	00850
+Palestina	00970
+Rep. Dominican	001809
+Russian Fed.	007
+Saint Helena	00290
+Sâo Tômé a. Principe	00239
+Saudi-Arabia	00966
+Serbia/Kosovo	00381
+Slovak Rep.	00421
+South Korea	0082
+St. Kitts	001869
+St. Pierre a. Miquelon	00508
+St. Vincent	001784
+Surinam	00597
+Tadzhikistan	00992
+Trinidad	001868
+Tunesia	00216
+Turks / Caicos	001649
+Wallis and Futuna	00681
+United Arab. Emirates	00971
+Deutschland	0049
+Schweiz	0041
+Afganistan	0093
+Dutch Antilles	00599
+Antigua and Barbuda	00268
+Australian territories (antarctic)	00672
+Azerbaidzhan	00994
+Bahama	00242
+Brasilia	0055
+The British Virgin Islands	00284
+Etiopia	00251
+Falkland	00500
+Fidzi	00679
+Filippines	0063
+Guadaloupe	00590
+Hong Kong	00852
+Irak	00964
+Great Britain and NorthIreland	0044
+EastTimor	00670
+Jemen	00967
+Christmas Island	0061
+Kamerun	00237
+Kampuchea	00855
+Kap Verde	00238
+Kazakstan	007
+Kenia	00254
+Kyrgyzstan	00996
+Comors	00269
+Kongo	00243
+Democratic Republic of the Kongo	00243
+Democratic Republic of Korea	00850
+Republic of Korea	0082
+Cypros	00357
+Libanon	00961
+Luxemburg	00352
+Madagaskar	00261
+Maledives	00960
+Malesia	0060
+Marocco	00212
+Federated States of Micronesia	00691
+Mosambik	00258
+Myanmar 	0095
+Norfolk Island	00672
+Ivory Coast	00225
+French Guinea	00594
+Réunion	00262
+Ruanda	00250
+Saint Helen	00290
+Saint Kitts and Nevis	00869
+Saint Lucia	00758
+Saint Pierre and Miguelon	00508
+St. Vincent ja Grenadines	001784
+Sambia	00260
+São Tomé ja Príncipe	00239
+Serbia & Montenegro	00381
+Slovakia	00421
+Tansania	00255
+Trinidad and Tobago	00868
+Tsad	00235
+Tunis	00216
+Turks and Caicos islands	00649
+New Kaledonia	00687
+Vatikan	00379
+USA Virgin Islands	001340
+Espagne	0034
+Allemagne	0049
+Amérique du Nord	001
+Albanie	00355
+Arabie Saoudite	00966
+Algérie	00213
+Arménie	00374
+Australie	0061
+Chine	0086
+Bulgarie	00359
+Bahreïn	00973
+Afrique du Sud	0027
+Azerbaïdjan	00994
+Fidji	00679
+Corée du Sud	0082
+Bhoutan	00975
+Italie	0039
+Hollande (Pays Bas)	0031
+Hollande	0031
+Etats-Unis d’Amérique	001
+Bosnie Herzégovine	00387
+Chypre	00357
+Antilles Néerlandaises	00599
+Géorgie	00995
+Dominique	001809
+Congo (République Démocratique)	00243
+Vatican	00379
+Norvège	0047
+Croatie	00385
+Egypte	0020
+Argentine	0054
+Hawaï (USA)	001808
+Hawaï	001808
+Japon	0081
+Cambodge	00855
+Equateur	00593
+Congo (République)	00242
+Mariannes	001670
+Andorre (Principauté)	00376
+Royaume Uni	0044
+Estonie	00372
+Emirats Arabes Unis	00971
+Israël	00972
+Marshall	00692
+England	0044
+Suède	0046
+Grèce	0030
+Belgique	0032
+Suisse	0041
+Autriche	0043
+Danemark	0045
+Finlande	00358
+Irlande	00353
+Islande	00354
+États-Unis d’Amérique	001
+Féroé	00298
+Hongrie	0036
+Lituanie	00370
+Malte	00356
+Monténégro	00382
+Pologne	0048
+Roumanie	0040
+Russie	007
+Slovaque	00421
+Slovénie	00386
+Tchèque	00420
+Koweït	00965
+Turquie	0090
+Yémen	00967
+Cameroun	00237
+Cap Vert	00238
+Centre Afrique	00236
+Côte d’Ivoire	00225
+Ethiopie	00251
+Erythrée	00291
+Guinée Equatoriale	0040
+Maurice	00230
+Mauritanie	00222
+Namibie	00264
+Ouganda	00256
+Soudan	00249
+Tanzanie	00255
+Tunisie	00216
+Zambie	00260
+Barbade	001246
+Bermudes	001441
+Brésil	0055
+Chili	0056
+Colombie	0057
+Dominicaine	001809
+Grenade	001473
+Guyane Française	00594
+Jamaïque	001876
+Mexique	0052
+Pérou	0051
+St. Lucie	001758
+Trinité & Tobago	001868
+Turks et Caïques	001649
+Vénézuela	0058
+Vierges	001284
+Haïti	00509
+Kirghizistan	00996
+Ouzbékistan	00998
+Tadjikistan	00992
+Turkménistan	00993
+Mongolie	00976
+Micronésie	00691
+Nouvelle Calédonie	00687
+Nouvelle Zélande	0064
+Polynésie Française	00689
+Samoa Américain	001684
+Inde	0091
+Indonésie	0062
+Malaisie	0060
+Népal	00977
+Singapour	0065
+Cook (Iles)	00682
+Corée du Nord	00850
+Gambie	00220
+Guinée	00224
+Guinée Bissau	00245
+Lettonie	00371
+Macédoine	00389
+Moldavie (République)	00373
+Papouasie Nouvelle Guinée	00675
+St Marin	00590
+Sénégal	00221
+Somalie	00252
+Tchad	00235
+Thaïlande	0066
+Vanuatu et Mayotte	002696
+​Antarctique	00262
+Falkland (RU)	00500
+Falkland	00500
+St Hélène	00290
+Tuvalu et Wallis & Futuna​	00681
+Slovaque (République)	00421
+Tchèque (République)	00420
+Turquie (République)	0090
+Centre Afrique (République)	00236
+Réunion (France)	00262
+Dominicaine (République)	001809
+Guadeloupe (France)	00590
+Martinique (France)	00596
+Porto Rico (USA)	001787
+Vierges (Iles ; RU)	001284
+001340 Vierges (Iles ; USA)	001340
+Groenland (Danemark)	00299
+St Marin (république)	00590
+​Antarctique	00262

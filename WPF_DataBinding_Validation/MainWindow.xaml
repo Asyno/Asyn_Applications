@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPF_DataBinding_Validation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_DataBinding_Validation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="400">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel>
+                            <TextBlock DockPanel.Dock="Left" Foreground="Red"
+                                       FontSize="14" FontWeight="Bold"
+                                       ToolTip="{Binding ElementName=adorner,
+                                            Path=AdornedElement.(Validation.Errors)[0].ErrorContent}">
+                                ***
+                            </TextBlock>
+                            <Border BorderBrush="Yellow" BorderThickness="2">
+                                <AdornedElementPlaceholder Name="adorner" />
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Validation.Error="Grid_Error">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label>Aktuelle Objektdaten:</Label>
+        <Label Grid.Column="1">Objektdaten ändern:</Label>
+        <Label Grid.Row="1" Content="{Binding Path=Name}" />
+        <Label Grid.Row="2" Content="{Binding Path=Alter}" />
+        <TextBox Margin="5" Grid.Column="1" Grid.Row="1" Text="{Binding Path=Name}" />
+        <TextBox Margin="5" Grid.Column="1" Grid.Row="2" Text="{Binding Path=Alter, 
+            ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+    </Grid>
+</Window>

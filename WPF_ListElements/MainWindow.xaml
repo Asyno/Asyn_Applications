@@ -1,0 +1,276 @@
+﻿<Window x:Class="WPF_ListElements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_ListElements"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1025">
+    <Window.Resources>
+        <ContextMenu x:Key="contextMenu1">
+            <MenuItem Header="_Ausschneiden">
+                <MenuItem.Icon>
+                    <Image Source="cut.ico" Height="16" Width="16" />
+                </MenuItem.Icon>
+            </MenuItem>
+
+            <MenuItem Header="_Kopieren">
+                <MenuItem.Icon>
+                    <Image Source="copy.ico" Height="16" Width="16" />
+                </MenuItem.Icon>
+            </MenuItem>
+
+            <MenuItem Header="_Einfügen">
+                <MenuItem.Icon>
+                    <Image Source="paste.ico" Height="16" Width="16" />
+                </MenuItem.Icon>
+            </MenuItem>
+        </ContextMenu>
+    </Window.Resources>
+    <DockPanel>
+        <!-- Menu -->
+        <Menu DockPanel.Dock="Top" Name="mnuMenu">
+            <MenuItem Header="_Datei">
+                <MenuItem Header="_Neu">
+                    <MenuItem.Icon>
+                        <Image Source="new.ico" Height="20" Margin="3" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Öffnen">
+                    <MenuItem.Icon>
+                        <Image Source="open.ico" Height="20" Margin="3" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Header="_Speichern">
+                    <MenuItem.Icon>
+                        <Image Source="save.ico" Height="20" Margin="3" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Speichern _unter ..." />
+                <Separator />
+                <MenuItem Header="_Senden an">
+                    <MenuItem Header="_Mail" />
+                    <MenuItem Header="_Desktop" />
+                </MenuItem>
+                <MenuItem Header="_Beenden" />
+            </MenuItem>
+            <MenuItem Header="_Bearbeiten" />
+            <MenuItem Header="Schriftstil">
+                <MenuItem Header="Fett" IsCheckable="True" IsChecked="True" />
+                <MenuItem Header="Kursiv" IsCheckable="True" IsChecked="False" />
+            </MenuItem>
+            <MenuItem Header="_Hilfe" />
+            <MenuItem Header="Test">
+                <CheckBox Content="Test" />
+            </MenuItem>
+        </Menu>
+        
+        <!-- Symbolleiste -->
+        <ToolBar DockPanel.Dock="Top" Height="30">
+            <Button>
+                <Image Source="open.ico" />
+            </Button>
+            <Button>
+                <Image Source="save.ico" />
+            </Button>
+            <Separator />
+            <ComboBox Width="80" SelectedIndex="0">
+                <ComboBoxItem Content="Arial" />
+                <ComboBoxItem Content="Courier" />
+                <ComboBoxItem Content="Windings" />
+            </ComboBox>
+        </ToolBar>
+        
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="0.5*" />
+                <RowDefinition />
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="2.25*"/>
+            </Grid.RowDefinitions>
+
+            <TextBox Text="ListBox"/>
+            <Border  Grid.Column="1" Padding="3" BorderBrush="Black" BorderThickness="1">
+                <DockPanel>
+                    <ListBox Name="ListBox1" DockPanel.Dock="Left" Padding="10">
+                        <ListBoxItem>Frankreich</ListBoxItem>
+                        <ListBoxItem>Italien</ListBoxItem>
+                        <ListBoxItem>Polen</ListBoxItem>
+                        <ListBoxItem>Dänemark</ListBoxItem>
+                    </ListBox>
+                    <TextBox Name="TextListBox" DockPanel.Dock="Bottom"/>
+                    <Button DockPanel.Dock="Left" Content="OK" Click="Button_Click" VerticalAlignment="Center" HorizontalAlignment="Left"
+                            Margin="3" Padding="10,0" />
+                </DockPanel>
+            </Border>
+
+            <TextBox Grid.Row="1" Text="ComboBox" />
+            <Border  Grid.Column="1" Grid.Row="1" Padding="3" BorderBrush="Black" BorderThickness="1">
+                <ComboBox Height="20" Name="ComboBox1" Width="120">
+                <ComboBoxItem>Berlin</ComboBoxItem>
+                <ComboBoxItem>Hamburg</ComboBoxItem>
+                <ComboBoxItem>Bremen</ComboBoxItem>
+                <ComboBoxItem>Düsseldorf</ComboBoxItem>
+                <ComboBoxItem>Dresden</ComboBoxItem>
+                <ComboBoxItem>München</ComboBoxItem>
+                </ComboBox>
+            </Border>
+
+            <TextBox Grid.Row="2" Text="ListView" />
+            <Border  Grid.Column="1" Grid.Row="2" Padding="3" BorderBrush="Black" BorderThickness="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.50*"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <ListView>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name" />
+                            </GridView>
+                        </ListView.View>
+                        <ListViewItem>Peter Müller</ListViewItem>
+                        <ListViewItem>Franz Goldschmidt</ListViewItem>
+                        <ListViewItem>Rudi Ratlos</ListViewItem>
+                        <ListViewItem>Conie Serna</ListViewItem>
+                    </ListView>
+
+                    <ListView Name="lstView" Grid.Column="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridView.Columns>
+                                    <GridViewColumn Header="Name" Width="90" DisplayMemberBinding="{Binding Path=Name}" />
+                                    <GridViewColumn Header="Wohnort" Width="85" DisplayMemberBinding="{Binding Path= Wohnort}" />
+                                    <GridViewColumn Header="Alter" Width="80" DisplayMemberBinding="{Binding Path=Alter}" />
+                                </GridView.Columns>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </Border>
+
+            <TextBox Grid.Row="3" Text="TreeView" />
+            <Border  Grid.Column="1" Grid.Row="3" Padding="3" BorderBrush="Black" BorderThickness="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="0.2*"/>
+                    </Grid.RowDefinitions>
+
+                    <TreeView Name="treeView1" SelectedItemChanged="treeView1_SelectedItemChanged">
+                        <TreeViewItem Header="Europa" MouseDown="TreeViewItem_MouseDown">
+                            <TreeViewItem Header="Deutschland" MouseDown="TreeViewItem_MouseDown">
+                                <TreeViewItem Header="NRW" MouseDown="TreeViewItem_MouseDown">
+                                    <TreeViewItem Header="Köln" MouseDown="TreeViewItem_MouseDown" />
+                                    <TreeViewItem Header="Aachen" MouseDown="TreeViewItem_MouseDown" />
+                                    <TreeViewItem Header="Duisburg" MouseDown="TreeViewItem_MouseDown" />
+                                </TreeViewItem>
+                                <TreeViewItem Header="Hessen" MouseDown="TreeViewItem_MouseDown">
+                                    <TreeViewItem Header="Frankfurt a.M." MouseDown="TreeViewItem_MouseDown" />
+                                </TreeViewItem>
+                            </TreeViewItem>
+                            <TreeViewItem Header="Frankreich" MouseDown="TreeViewItem_MouseDown" />
+                        </TreeViewItem>
+                        <TreeViewItem Header="Asien" MouseDown="TreeViewItem_MouseDown">
+                            <TreeViewItem Header="China" MouseDown="TreeViewItem_MouseDown" />
+                        </TreeViewItem>
+                        <TreeViewItem Header="Test">
+                            <CheckBox Content="Checkbox Test" />
+                        </TreeViewItem>
+                    </TreeView>
+
+                    <Button Grid.Row="1" Grid.RowSpan="2" Name="btnDelete" Click="btnDelete_Click" Content="Delete Item"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    <StackPanel Grid.Column="1">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Name="txtNewItem" Width="100" Margin="10"></TextBox>
+                            <Button Name="btnAdd" Click="btnAdd_Click" Content="Add Item" />
+                        </StackPanel>
+                        <CheckBox Name="chkBox1" Content="Element in der ersten Ebene" />
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Label Foreground="Black" Content="Vorheriges Element:" />
+                            <TextBox Grid.Column="1" Name="txtOld" />
+                            <Label Grid.Row="1" Foreground="Black" Content="Neues Element:" />
+                            <TextBox Grid.Column="1" Grid.Row="1" Name="txtNew" />
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <TextBox Grid.Row="4" Text="TabControl" />
+            <Border  Grid.Column="1" Grid.Row="4" Padding="3" BorderBrush="Black" BorderThickness="1">
+                <TabControl TabStripPlacement="Right">
+                    <TabItem Header="Tab 1" Height="30">
+                        <TabItem.LayoutTransform>
+                            <RotateTransform Angle="90" />
+                        </TabItem.LayoutTransform>
+                        <TabItem.Content>
+                            Hier steht der Inhalt der 1. Registerkarte.
+                        </TabItem.Content>
+                    </TabItem>
+                    <TabItem Header="Tab 2">
+                        <TabItem.LayoutTransform>
+                            <RotateTransform Angle="90" />
+                        </TabItem.LayoutTransform>
+                        <TabItem.Content>
+                            Hier steht der Inhalt der 2. Registerkarte.
+                        </TabItem.Content>
+                    </TabItem>
+                    <TabItem Header="Tab 3">
+                        <TabItem.LayoutTransform>
+                            <RotateTransform Angle="90" />
+                        </TabItem.LayoutTransform>
+                        <TabItem.Content>
+                            Hier steht der Inhalt der 3. Registerkarte.
+                        </TabItem.Content>
+                    </TabItem>
+                </TabControl>
+            </Border>
+
+            <TextBox Grid.Column="2" Text="ContextMenu" />
+            <StackPanel Grid.Column="3">
+                <Button Name="Button1" Height="25" Content="Kotextdemo">
+                    <Button.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Name="cMenu1" Header="Kopieren" />
+                            <MenuItem Name="cMenu2" Header="Ausschneiden" />
+                            <MenuItem Name="cMenu3" Header="Einfügen" />
+                        </ContextMenu>
+                    </Button.ContextMenu>
+                </Button>
+                <TextBox ContextMenu="{StaticResource contextMenu1}" ContextMenuService.HasDropShadow="True" ContextMenuService.Placement="Mouse" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Status Bar -->
+        <StatusBar DockPanel.Dock="Bottom" Height="30">
+            <Button Width="80" Content="Start" />
+            <Label Content="Suchen:" />
+            <StatusBarItem Width="100" HorizontalAlignment="Stretch">
+                <TextBox>Suchbegriff</TextBox>
+            </StatusBarItem>
+            <Separator />
+            <StatusBarItem HorizontalAlignment="Right">Anzahl: 2</StatusBarItem>
+        </StatusBar>
+    </DockPanel>
+</Window>

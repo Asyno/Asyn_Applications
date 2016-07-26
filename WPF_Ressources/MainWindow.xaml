@@ -1,0 +1,65 @@
+﻿<Window x:Class="WPF_Ressources.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Ressources"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="625">
+    <Window.Resources>
+        <SolidColorBrush x:Key="btnBackground" Color="Yellow" />
+        <Image x:Key="image" Source="symbol.ico" x:Shared="false" />
+        <SolidColorBrush Color="Red" x:Key="{x:Static SystemColors.WindowBrushKey}" />
+        <Style TargetType="ListBox">
+            <Setter Property="Margin" Value="10" />
+            <EventSetter Event="SelectionChanged" Handler="listbox1_SelectionChanged" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition Width="1.6*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="1.5*" />
+        </Grid.RowDefinitions>
+        <Button Name="button1" Margin="10" VerticalAlignment="Top" Height="40"
+                Background="{DynamicResource btnBackground}" Content="Button 1" />
+        <StackPanel Grid.Column="1">
+            <Button Name="btnChangeColor1" Margin="5"
+                    Click="btnChangeColor1_Click" Content="Ressource ändern" />
+            <Button Name="btnChangeColor2" Margin="5,0,5,5"
+                    Click="btnChangeColor2_Click" Content="Ressource erstellen" />
+        </StackPanel>
+        <Button Grid.Row="1" Content="{StaticResource image}" />
+        <Button Grid.Row="1" Grid.Column="1" Content="{StaticResource image}" />
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <Button Content="Button1" Style="{StaticResource btnStyle}" />
+            <Button Content="Button2" Style="{StaticResource btnStyle}" />
+            <Button Content="Button3" Style="{StaticResource btnStyle}" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.RowSpan="2">
+            <ListBox Background="AntiqueWhite" Name="listbox1">
+                <ListBoxItem>Australien</ListBoxItem>
+                <ListBoxItem>Thailand</ListBoxItem>
+                <ListBoxItem>Seychellen</ListBoxItem>
+            </ListBox>
+            <ListBox Background="LightSkyBlue" Name="listbox2" SelectionChanged="listbox2_SelectionChanged">
+                <ListBoxItem>Hamburg</ListBoxItem>
+                <ListBoxItem>München</ListBoxItem>
+                <ListBoxItem>Berlin</ListBoxItem>
+            </ListBox>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBox Width="120" Margin="10" Name="txtLinks"
+                         Background="AliceBlue">...</TextBox>
+                <TextBox Width="120" Margin="10" Name="txtRechts"
+                         Background="AliceBlue">...</TextBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,90 @@
+﻿<Window x:Class="WPF_FlowDocument.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_FlowDocument"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="725">
+    <Grid>
+        <!-- Mögliche Funktionen: FlowDocumentScrollViewer - Fliestext; FlowDocumentPageViewer - Seitenanzeige; FlowDocumentReader - umschalt funktion -->
+        <FlowDocumentReader>
+            <FlowDocument>
+                <Paragraph FontSize="20" FontFamily="Arial" FontWeight="Bold" Foreground="Blue">
+                    Kapitel 3: das Klassendesign
+                </Paragraph>
+                <Paragraph FontSize="16" FontFamily="Arial" FontWeight="Bold">
+                    3.1 Einführung in die Objektorientierung
+                </Paragraph>
+                <Paragraph FontSize="12" FontFamily="Arial">
+                    Die beiden wichtigsten ...
+                </Paragraph>
+                <Paragraph FontSize="12" FontFamily="Arial">
+                    Stellen Sie sich ein Architekturbüro ...
+                </Paragraph>
+
+                <List MarkerStyle="Decimal" FontFamily="Arial" FontSize="12">
+                    <ListItem>
+                        <Paragraph>Erster Listeneintrag</Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>Zweiter Listeneintrag</Paragraph>
+                    </ListItem>
+                </List>
+
+                <Table CellSpacing="10" Padding="0" Background="Yellow"
+                       FontFamily="Arial" FontSize="12">
+                    <!-- Spaltendefinition -->
+                    <Table.Columns>
+                        <TableColumn Width="70" />
+                        <TableColumn Width="120" />
+                        <TableColumn Width="200" />
+                    </Table.Columns>
+                    <!-- Zeilendefinition -->
+                    <TableRowGroup Background="LightCyan">
+                        <TableRow>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 0,0</Paragraph>
+                            </TableCell>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 0,1</Paragraph>
+                            </TableCell>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 0,2</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 1,0</Paragraph>
+                            </TableCell>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 1,1</Paragraph>
+                            </TableCell>
+                            <TableCell BorderThickness="1" BorderBrush="Black">
+                                <Paragraph>Zelle 1,2</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    Lorem ipsum dolor
+                    <LineBreak />
+                    <Italic>amet, consectetuer adipiscing elit. Aenean</Italic>
+                    <Bold>ciis natoque penatibus et magnis dis parturient montes,</Bold>
+                    <Underline>nascetur ridiculus mus. Donec quam felis, ultricies nec,</Underline>
+                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede
+                    <Figure Width="100" Height="80">
+                        <Paragraph>Figure Box, mit extra Inhalt</Paragraph>
+                    </Figure>
+                    <InlineUIContainer>
+                        <Button Content="Test Button" />
+                    </InlineUIContainer>
+                    <Span Background="Yellow" Foreground="Blue" FontFamily="Califonian FB">justo, fringilla vel, aliquet</Span>
+                    <Hyperlink NavigateUri="http://google.com">
+                        <Bold>GOOGLE</Bold>
+                    </Hyperlink> nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentReader>
+    </Grid>
+</Window>

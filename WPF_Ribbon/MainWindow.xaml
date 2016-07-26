@@ -1,0 +1,74 @@
+﻿<RibbonWindow x:Class="WPF_Ribbon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Ribbon"
+        xmlns:ribbon="clr-namespace:System.Windows.Controls.Ribbon;assembly=System.Windows.Controls.Ribbon"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel LastChildFill="True">
+        <ribbon:Ribbon DockPanel.Dock="Top">
+            <Ribbon.QuickAccessToolBar>
+                <RibbonQuickAccessToolBar>
+                    <RibbonButton Label="Save" SmallImageSource="symbol/save.ico" />
+                    <RibbonButton Label="Undo" SmallImageSource="symbol/undo.ico" />
+                    <RibbonButton Label="Redo" SmallImageSource="symbol/redo.ico" />
+                </RibbonQuickAccessToolBar>
+            </Ribbon.QuickAccessToolBar>
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu SmallImageSource="Symbol/down.ico">
+                    <RibbonApplicationMenuItem Header="Neues Dokument" ImageSource="symbol/new.ico" />
+                    <RibbonApplicationMenuItem Header="Öffnen" ImageSource="symbol/open.ico" />
+                    <RibbonApplicationMenuItem Header="Speichern" ImageSource="symbol/save.ico" />
+                    <RibbonApplicationMenuItem Header="Speiechern als..." />
+                    <RibbonApplicationMenuItem Header="Alles Speichern" ImageSource="symbol/save-all.ico" />
+                    <RibbonApplicationSplitMenuItem />
+                    <RibbonApplicationMenuItem Header="Drucken" ImageSource="symbol/print.ico" />
+                    <RibbonApplicationMenuItem Header="Drucker einrichten" ImageSource="symbol/print-edit.ico" />
+                    <RibbonApplicationSplitMenuItem />
+                    <RibbonApplicationMenuItem Header="Beenden" />
+
+                    <RibbonApplicationMenu.AuxiliaryPaneContent>
+                        <RibbonGallery CanUserFilter="False" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                            <RibbonGalleryItem Content="Verbindung zum Internet herstellen" />
+                            <RibbonGalleryItem Content="Datenverbindung prüfen" />
+                            <RibbonGalleryItem Content="Datenübertragung" />
+                        </RibbonGallery>
+                    </RibbonApplicationMenu.AuxiliaryPaneContent>
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+            <Ribbon.HelpPaneContent>
+                <RibbonButton Content="Hilfe" SmallImageSource="symbol/help.ico" />
+            </Ribbon.HelpPaneContent>
+            <RibbonTab Header="Start">
+                <RibbonGroup Header="Allgemein">
+                    <RibbonButton Label="Neu" LargeImageSource="symbol/new.ico" />
+                    <RibbonButton Label="Speichern" LargeImageSource="symbol/save.ico" />
+                </RibbonGroup>
+                <RibbonGroup Header="Zwischenablage">
+                    <RibbonComboBox IsEditable="False" SmallImageSource="symbol/paste.ico">
+                        <RibbonGallery SelectedValue="Einfügen" SelectedValuePath="Content" MaxColumnCount="1">
+                            <RibbonGalleryCategory>
+                                <RibbonGalleryItem Content="Einfügen" />
+                                <RibbonGalleryItem Content="Inhalt einfügen ..." />
+                            </RibbonGalleryCategory>
+                        </RibbonGallery>
+                    </RibbonComboBox>
+                    <RibbonButton Label="Ausschneiden" SmallImageSource="symbol/cut.ico" />
+                    <RibbonButton Label="Kopieren" SmallImageSource="symbol/copy.ico" />
+                </RibbonGroup>
+                <RibbonGroup Header="Einstellungen">
+                    <RibbonButton Label="Farbe" SmallImageSource="symbol/color.ico" />
+                    <RibbonButton Label="Schriftart" />
+                    <RibbonButton Label="Kontrast" />
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Einfügen"></RibbonTab>
+            <RibbonTab Header="Optionen"></RibbonTab>
+        </ribbon:Ribbon>
+        <StackPanel>
+            
+        </StackPanel>
+    </DockPanel>
+</RibbonWindow>

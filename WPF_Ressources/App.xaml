@@ -1,0 +1,26 @@
+﻿<Application x:Class="WPF_Ressources.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_Ressources"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+       <Style x:Key="btnStyle">
+            <Setter Property="Button.Height" Value="35" />
+            <Setter Property="Button.FontSize" Value="18" />
+            <Setter Property="Button.Margin" Value="10" />
+            <Setter Property="Button.Background">
+                <Setter.Value>
+                    <LinearGradientBrush>
+                        <GradientStop Offset="0.0" Color="Blue" />
+                        <GradientStop Offset="1.0" Color="LightCyan" />
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="{x:Type Button}" BasedOn="{StaticResource btnStyle}">
+            <Setter Property="Button.Foreground" Value="Green" />
+        </Style>
+    </Application.Resources>
+</Application>

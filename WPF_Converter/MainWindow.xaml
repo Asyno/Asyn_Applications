@@ -1,0 +1,32 @@
+﻿<Window x:Class="WPF_Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Converter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:NumberConverter x:Key="converter" />
+        <local:Aktie x:Key="aktie" Unternehmen="Tollsoft" Wert="211.73536" />
+        <local:PersonConverter x:Key="multiConverter" />
+        <local:Person x:Key="person" Vorname="Peter" Zuname="Holzschuh" />
+    </Window.Resources>
+    <StackPanel>
+        <Label>Aktie:</Label>
+        <TextBox Margin="10" Text="{Binding Source={StaticResource aktie}, 
+            Path=Wert, Converter={StaticResource converter},
+            ConverterParameter='#.##'}" />
+        <TextBox Margin="10" Text="{Binding Source={StaticResource aktie},
+            Path=Unternehmen}" />
+        <Label>Person:</Label>
+        <TextBox Margin="10">
+            <TextBox.Text>
+                <MultiBinding Converter="{StaticResource multiConverter}">
+                    <Binding Source="{StaticResource person}" Path="Zuname" />
+                    <Binding Source="{StaticResource person}" Path="Vorname" />
+                </MultiBinding>
+            </TextBox.Text>
+        </TextBox>
+    </StackPanel>
+</Window>

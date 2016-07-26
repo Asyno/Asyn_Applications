@@ -1,0 +1,68 @@
+﻿<Window x:Class="WPF_Trigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Trigger"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Height" Value="25" />
+            <Setter Property="Width"
+                    Value="{Binding ElementName=form, Path=Width}" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Control.Background" Value="AntiqueWhite" />
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.Setters>
+                        <Setter Property="Control.Background" Value="Cyan" />
+                    </Trigger.Setters>
+                </Trigger>
+
+                <Trigger Property="IsFocused" Value="True">
+                    <Trigger.Setters>
+                        <Setter Property="Background" Value="MidnightBlue" />
+                        <Setter Property="Foreground" Value="White" />
+                    </Trigger.Setters>
+                </Trigger>
+
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="IsMouseOver" Value="true" />
+                        <Condition Property="Text" Value="" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="TextBox.Background" Value="Red" />
+                </MultiTrigger>
+
+                <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=Text}"
+                             Value="Weg damit">
+                    <Setter Property="IsEnabled" Value="False" />
+                </DataTrigger>
+
+            </Style.Triggers>
+
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation From="0" To="1" Duration="0:0:3"
+                                                 Storyboard.TargetProperty="(Opacity)" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <StackPanel>
+        <TextBox Width="Auto" />
+        <TextBox Width="Auto" />
+        <Button Content="Button1" />
+    </StackPanel>
+</Window>

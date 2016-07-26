@@ -1,0 +1,22 @@
+﻿<Page x:Class="WPF_Frame.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_Frame"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Page1">
+
+    <StackPanel>
+        <TextBlock Height="35" Margin="20,20,20,0">
+            <Hyperlink NavigateUri="Page2.xaml">Zur Seite 2</Hyperlink><LineBreak />
+            <Hyperlink NavigateUri="Page2.xaml"
+                       RequestNavigate="Hyperlink_RequestNavigate">Zur Seite 2 (RequestNavigate)</Hyperlink>
+        </TextBlock>
+        <TextBox Height="25" Margin="20" Background="AntiqueWhite" />
+        <Button Content="Color" Width="100" Margin="5" Click="Button1_Click" />
+        <Button Content="Page2" Width="100" Margin="5" Click="LinkPage2" />
+        <Button Content="Google" Width="100" Margin="5" Click="GoogleClick" />
+    </StackPanel>
+</Page>
