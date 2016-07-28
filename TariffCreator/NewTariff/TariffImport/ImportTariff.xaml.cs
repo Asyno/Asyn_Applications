@@ -93,8 +93,16 @@ namespace TariffCreator.NewTariff.TariffImport
                         if (!string.IsNullOrWhiteSpace(prefix))
                         {
                             float pMin, pCall;
-                            float.TryParse(m.Groups[4] + "", out pMin);
-                            float.TryParse(m.Groups[5] + "", out pCall);
+                            if (string.IsNullOrWhiteSpace(m.Groups[4] + "") && string.IsNullOrWhiteSpace(m.Groups[5] + ""))
+                            {
+                                float.TryParse(txtDefPriceMin.Text, out pMin);
+                                float.TryParse(txtDefPriceCall.Text, out pCall);
+                            }
+                            else
+                            {
+                                float.TryParse(m.Groups[4] + "", out pMin);
+                                float.TryParse(m.Groups[5] + "", out pCall);
+                            }
                             tariffList.Add(new Country(description, prefix)
                             { PriceMin = pMin, PriceCall = pCall });
                         }

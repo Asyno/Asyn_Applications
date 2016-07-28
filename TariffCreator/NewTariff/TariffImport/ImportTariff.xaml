@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TariffCreator.NewTariff.TariffImport"
         mc:Ignorable="d"
-        Title="ImportTariff" Height="380" Width="300">
+        Title="ImportTariff" Height="470" Width="300">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
@@ -25,6 +25,7 @@
             <Label HorizontalAlignment="Center" Foreground="AntiqueWhite" Content="Insert the Tariff" 
                    FontSize="20" FontWeight="Bold" Margin="10" />
         </StackPanel>
+        
         <TextBox  Margin="10" Grid.Row="1" Name="txtTariff" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" ToolTipService.ShowDuration="20000">
             <TextBox.ToolTip>
                 <StackPanel>
@@ -40,10 +41,25 @@
                 </StackPanel>
             </TextBox.ToolTip>
         </TextBox>
+
         <StackPanel Grid.Row="2">
-            <CheckBox Name="tick_overwrite" Margin="10,0,0,0">
-                <Label Foreground="AntiqueWhite">Overwrite existing List</Label>
-            </CheckBox>
+            <Expander Header="Advanced Settings" Foreground="AntiqueWhite" Padding="5">
+                <StackPanel  Margin="10,0,0,0">
+                    <CheckBox Name="tick_overwrite">
+                        <Label Foreground="AntiqueWhite">Overwrite existing List</Label>
+                    </CheckBox>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal">
+                        <StackPanel>
+                            <Label Foreground="AntiqueWhite">Default Price per min:</Label>
+                            <Label Foreground="AntiqueWhite">Default Price per Call:</Label>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox Name="txtDefPriceMin" Width="100" Margin="7"/>
+                            <TextBox Name="txtDefPriceCall" Width="100" />
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Expander>
             <StackPanel HorizontalAlignment="Right" Orientation="Horizontal" Margin="10">
                 <Button Padding="5,0" Name="btn_Check" Click="btn_Check_Click" Content="Check" />
                 <Button Padding="5,0" Margin="15,0,0,0" Name="btn_Import" Click="btn_Import_Click" Content="Import" />
