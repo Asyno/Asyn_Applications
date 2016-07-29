@@ -8,8 +8,8 @@ namespace TariffCreator.Config
 {
     public class Country
     {
-        public string Description { get; }
-        public string Prefix { get; }
+        public string Description { get; set; }
+        public string Prefix { get; set; }
         public float? PriceMin { get; set; }
         public float? PriceCall { get; set; }
 

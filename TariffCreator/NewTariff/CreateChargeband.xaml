@@ -32,12 +32,12 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="1" DataContext="{Binding ElementName=comboCB, Path=SelectedItem}">
+        <Grid Grid.RowSpan="2" DataContext="{Binding ElementName=comboCB, Path=SelectedItem}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition />
@@ -64,7 +64,7 @@
             <TextBox Grid.Column="1" Grid.Row="2" Name="txtCBShort" Text="{Binding Path=CBShortName}" />
             <TextBox Grid.Column="1" Grid.Row="3" Name="txtPriceMin" Text="{Binding Path=PriceMin}" />
             <TextBox Grid.Column="1" Grid.Row="4" Name="txtPriceCall" Text="{Binding Path=PriceCall}" />
-            
+
             <Expander Grid.Row="5" Grid.ColumnSpan="2" Margin="10" Header="Advanced Settings" Foreground="AntiqueWhite">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -92,8 +92,8 @@
                 </Grid>
             </Expander>
         </Grid>
-        
-        <ListView Grid.Row="1" Grid.Column="1" Name="listCB" Margin="5" ItemsSource="{Binding ElementName=comboCB, Path=SelectedItem.Countrys}">
+
+        <!--<ListView Grid.Column="1" Grid.Row="1" Name="listCB" Margin="5" ItemsSource="{Binding ElementName=comboCB, Path=SelectedItem.Countrys}">
             <ListView.View>
                 <GridView AllowsColumnReorder="True">
                     <GridViewColumn Width="60" DisplayMemberBinding="{Binding Path=Prefix}">
@@ -108,8 +108,16 @@
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
-        </ListView>
-
-        <Button Grid.Column="1" Grid.Row="2" Margin="5" Name="btnSaveCB" Click="btnSaveCB_Click" Content="Save as File" />
+        </ListView>-->
+        <DataGrid  Grid.Column="1" Grid.Row="1" Name="listCB" Margin="5" ItemsSource="{Binding ElementName=comboCB, Path=SelectedItem.Countrys}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="60" Binding="{Binding Prefix}" Header="Prefix" />
+                <DataGridTextColumn Width="200" Binding="{Binding Description}" Header="Description" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Column="1" Grid.Row="2">
+            <Button Margin="5,5,5,15" Name="btnDeleteCountry" Content="Delete Country" Click="btnDeleteCountry_Click" />
+            <Button Margin="5" Name="btnSaveCB" Click="btnSaveCB_Click" Content="Save as File" />
+        </StackPanel>
     </Grid>
 </Page>
