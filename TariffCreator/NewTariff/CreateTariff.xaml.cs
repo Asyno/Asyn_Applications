@@ -119,7 +119,7 @@ namespace TariffCreator.NewTariff
         }
 
         /// <summary>
-        /// Create the Chargebands and go to CreateChargeband.xaml
+        /// Create the Chargebands and go to CreateChargeband
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
