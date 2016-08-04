@@ -3,7 +3,7 @@ using System.IO;
 using System.Windows;
 using TariffCreator.Config;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.CreateInfFile
 {
     partial class CreateInf
     {

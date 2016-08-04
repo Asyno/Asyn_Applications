@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using TariffCreator.Config;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.CreateInfFile
 {
     /// <summary>
     /// Interaction logic for CreateInf.xaml

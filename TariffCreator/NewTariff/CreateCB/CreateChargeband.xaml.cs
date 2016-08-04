@@ -5,7 +5,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using TariffCreator.Config;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.CreateCB
 {
     /// <summary>
     /// Interaction logic for CreateChargeband.xaml
@@ -31,7 +31,7 @@ namespace TariffCreator.NewTariff
         /// <param name="e"></param>
         private void btnSaveCB_Click(object sender, RoutedEventArgs e)
         {
-            CreateInf createInf = new CreateInf(this.ChargeBandListe);
+            CreateInfFile.CreateInf createInf = new CreateInfFile.CreateInf(this.ChargeBandListe);
             this.NavigationService.Navigate(createInf);
         }
 

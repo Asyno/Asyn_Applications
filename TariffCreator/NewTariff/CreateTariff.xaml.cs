@@ -135,7 +135,7 @@ namespace TariffCreator.NewTariff
                     Config.ChargeBandList.GetChargeBands(countryListe, (result == MessageBoxResult.Yes), (Config.Country)comboCountry.SelectedItem);
                 if (cbListe != null)
                 {
-                    CreateChargeband createChargeband = new CreateChargeband(cbListe);
+                    CreateCB.CreateChargeband createChargeband = new CreateCB.CreateChargeband(cbListe);
                     this.NavigationService.Navigate(createChargeband);
                 }
                 else MessageBox.Show("Please insert as first the Prices", "No Prices configured",

@@ -72,11 +72,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="NewTariff\CreateChargeband.xaml">
+    <Page Include="NewTariff\CreateCB\CreateChargeband.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NewTariff\CreateInf.xaml">
+    <Page Include="NewTariff\CreateInfFile\CreateInf.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -94,13 +94,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NewTariff\CreateChargeband.xaml.cs">
+    <Compile Include="NewTariff\CreateCB\CreateChargeband.xaml.cs">
       <DependentUpon>CreateChargeband.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NewTariff\CreateInf.xaml.cs">
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.xaml.cs">
       <DependentUpon>CreateInf.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NewTariff\CreateInf.SaveInf.cs" />
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.SaveInf.cs" />
     <Compile Include="NewTariff\CreateTariff.Import.cs" />
     <Compile Include="NewTariff\CreateTariff.SearchBtn.cs" />
     <Compile Include="NewTariff\CreateTariff.SortColumn.cs" />
