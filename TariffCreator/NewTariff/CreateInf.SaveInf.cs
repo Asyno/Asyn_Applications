@@ -71,13 +71,15 @@ namespace TariffCreator.NewTariff
                 sw.WriteLine("[Destinations]");
                 for(int i = 0; i < cbListe.Count; i++)
                 {
-                    for(int countryCount = 0; countryCount < cbListe[i].Countrys.Count; countryCount++)
+                    foreach(Country item in cbListe[i].Countrys)
                     {
-                        Country country = cbListe[i].Countrys[countryCount];
-                        sw.Write(country.Prefix + "=\"");
-                        sw.Write(country.Description + "\",");
-                        sw.Write(cbListe[i].CCShortName + ",");
-                        sw.WriteLine(cbListe[i].CBShortName);
+                        if (!(string.IsNullOrWhiteSpace(item.Description) || string.IsNullOrWhiteSpace(item.Prefix)))
+                        {
+                            sw.Write(item.Prefix + "=\"");
+                            sw.Write(item.Description + "\",");
+                            sw.Write(cbListe[i].CCShortName + ",");
+                            sw.WriteLine(cbListe[i].CBShortName);
+                        }
                     }
                 }
 

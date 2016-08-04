@@ -111,8 +111,8 @@
         </ListView>-->
         <DataGrid  Grid.Column="1" Grid.Row="1" Name="listCB" Margin="5" ItemsSource="{Binding ElementName=comboCB, Path=SelectedItem.Countrys}" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Width="60" Binding="{Binding Prefix}" Header="Prefix" />
-                <DataGridTextColumn Width="200" Binding="{Binding Description}" Header="Description" />
+                <DataGridTextColumn Width="60" Header="Prefix" Binding="{Binding Prefix, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" />
+                <DataGridTextColumn Width="200" Binding="{Binding Description, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" Header="Description" />
             </DataGrid.Columns>
         </DataGrid>
         <StackPanel Grid.Column="1" Grid.Row="2">

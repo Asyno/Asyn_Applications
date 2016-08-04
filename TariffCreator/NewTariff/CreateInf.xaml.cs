@@ -34,6 +34,7 @@ namespace TariffCreator.NewTariff
             if (txtIdent.Text != "" && txtName.Text != "")
             {
                 SaveFileDialog dlg = new SaveFileDialog();
+                dlg.FileName = txtName.Text;
                 dlg.DefaultExt = ".inf";
                 dlg.Filter = "Tariff files (.inf)|*.inf";
                 Nullable<bool> result = dlg.ShowDialog();

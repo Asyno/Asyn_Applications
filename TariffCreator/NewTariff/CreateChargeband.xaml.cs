@@ -56,7 +56,7 @@ namespace TariffCreator.NewTariff
         private void ListRefresh()
         {
             CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(listCB.ItemsSource);
-            view.Refresh();
+            try { view.Refresh(); } catch (Exception) { }
         }
     }
 }

@@ -8,6 +8,10 @@ namespace TariffCreator.NewTariff
     partial class CreateTariff
     {
         ImportTariff import = null;
+
+        /// <summary>
+        /// Opens the Import Window.
+        /// </summary>
         private void ImportCountrys()
         {
             if (import != null) import.Close();
@@ -16,6 +20,11 @@ namespace TariffCreator.NewTariff
             import.TariffListCreated += new EventHandler(GetNewCountryList);
         }
 
+        /// <summary>
+        /// Delegate to get the tarif list from TariffImport.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void GetNewCountryList(object sender, EventArgs e)
         {
             ObservableCollection<Config.Country> newList = ((TariffListEventArgs)e).TariffList;
