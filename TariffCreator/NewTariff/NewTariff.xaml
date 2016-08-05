@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:TariffCreator.NewTariff"
         mc:Ignorable="d"
         Title="NewTariff" Height="450" Width="650"
-        Source="CreateTariff.xaml">
+        Source="TariffCreate/CreateTariff.xaml">
 </NavigationWindow>

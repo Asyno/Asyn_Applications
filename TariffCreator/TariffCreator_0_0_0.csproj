@@ -80,7 +80,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NewTariff\CreateTariff.xaml">
+    <Page Include="NewTariff\TariffCreate\CreateTariff.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,10 +101,10 @@
       <DependentUpon>CreateInf.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewTariff\CreateInfFile\CreateInf.SaveInf.cs" />
-    <Compile Include="NewTariff\CreateTariff.Import.cs" />
-    <Compile Include="NewTariff\CreateTariff.SearchBtn.cs" />
-    <Compile Include="NewTariff\CreateTariff.SortColumn.cs" />
-    <Compile Include="NewTariff\CreateTariff.xaml.cs">
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.Import.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.SearchBtn.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.SortColumn.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.xaml.cs">
       <DependentUpon>CreateTariff.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewTariff\TariffImport\ImportTariff.xaml.cs">
@@ -130,8 +130,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="NewTariff\CreateTariff.Methods.cs" />
-    <Compile Include="NewTariff\CreateTariff.MultiSelection.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.Methods.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.MultiSelection.cs" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

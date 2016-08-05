@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.TariffCreate
 {
     /// <summary>
     /// Interaction logic for CreateTariff.xaml

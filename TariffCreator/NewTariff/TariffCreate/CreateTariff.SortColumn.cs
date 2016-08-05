@@ -4,7 +4,7 @@ using System.Windows.Controls;
 using System.Windows.Documents;
 using System.Windows.Media;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.TariffCreate
 {
     partial class CreateTariff
     {

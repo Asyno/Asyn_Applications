@@ -3,7 +3,7 @@ using System.Collections.ObjectModel;
 using TariffCreator.NewTariff.TariffImport;
 using TariffCreator.Config;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.TariffCreate
 {
     partial class CreateTariff
     {

@@ -1,7 +1,7 @@
 ﻿using System.Windows.Data;
 using System.Windows.Controls;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.TariffCreate
 {
     partial class CreateTariff
     {

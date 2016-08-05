@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using TariffCreator.Config;
 
-namespace TariffCreator.NewTariff
+namespace TariffCreator.NewTariff.TariffCreate
 {
     partial class CreateTariff
     {
