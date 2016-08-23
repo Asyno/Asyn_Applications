@@ -24,6 +24,9 @@
             <Label HorizontalAlignment="Center" Foreground="AntiqueWhite" Content="TariffCreator" 
                    FontSize="20" FontWeight="Bold" Margin="10" />
         </StackPanel>
-        <Button Grid.Row="1" Name="btnTariff" Margin="5,25,5,5" Click="btnTariff_Click" Content="Create a new tariff" />
+        <StackPanel Grid.Row="1">
+            <Button Name="btnTariff" Margin="5,25,5,5" Click="btnTariff_Click" Content="Create a new tariff" />
+            <Button Name="btnOverview" Margin="5" Click="btnOverview_Click" Content="Create an Overview from an inf" />
+        </StackPanel>
     </Grid>
 </Window>

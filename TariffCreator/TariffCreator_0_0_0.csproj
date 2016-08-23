@@ -59,6 +59,16 @@
     <Compile Include="Config\ChargeBandList.cs" />
     <Compile Include="Config\Country.cs" />
     <Compile Include="Config\CountryList.cs" />
+    <Compile Include="ReadInf\LoadFile\LoadFile.LoadInf.cs" />
+    <Compile Include="ReadInf\LoadFile\LoadFile.xaml.cs">
+      <DependentUpon>LoadFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadInf\ReadFile\ReadFile.xaml.cs">
+      <DependentUpon>ReadFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadInf\ReadInf.xaml.cs">
+      <DependentUpon>ReadInf.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -89,6 +99,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="NewTariff\NewTariff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReadInf\LoadFile\LoadFile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReadInf\ReadFile\ReadFile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReadInf\ReadInf.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
