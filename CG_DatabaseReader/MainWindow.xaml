@@ -1,0 +1,85 @@
+﻿<Window x:Class="CG_DatabaseReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CG_DatabaseReader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="950">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition/>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Grid>
+                <TextBox Name="txtSearchBox" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left"
+                     Margin="5" />
+                <TextBlock IsHitTestVisible="False" Text="Search..." VerticalAlignment="Center"
+                       HorizontalAlignment="Left" Margin="10,0,0,0" Foreground="DarkGray">
+                    <TextBlock.Style>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Text, ElementName=txtSearchBox}" Value="">
+                                    <Setter Property="Visibility" Value="Visible" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+                <TextBlock Name="txtDatabaseVersion" HorizontalAlignment="Right" Margin="0,0,30,0"/>
+            </Grid>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Name="gridCustomer" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Debitor" Binding="{Binding Debitor}" />
+                <DataGridTextColumn Header="Projects" Binding="{Binding Projects}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Zusatz" Binding="{Binding Zusatz}" />
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}" />
+                <DataGridTextColumn Header="Support Level" Binding="{Binding SupportLevel}" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="0" Background="BlanchedAlmond" Padding="10">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Period: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Period}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Product: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Product}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Tiger Comms: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding TigerComms}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Contract: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Contract}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Warranty: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Warranty}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Volumne: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Volume}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Comment: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Comment}" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+        <DockPanel Grid.Row="2">
+            <TextBlock DockPanel.Dock="Bottom" Name="txtStatus" Text="Starting..." />
+        </DockPanel>
+    </Grid>
+</Window>

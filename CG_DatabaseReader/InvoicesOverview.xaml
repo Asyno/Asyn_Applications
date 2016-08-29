@@ -1,0 +1,81 @@
+﻿<Window x:Class="CG_DatabaseReader.InvoicesOverview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CG_DatabaseReader"
+        mc:Ignorable="d"
+        Title="InvoicesOverview" Height="450" Width="800">
+    <Grid>
+        <DataGrid Grid.Row="1" Name="gridInvoice" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Inv.[Month]" Binding="{Binding InvMonth}" />
+                <DataGridTextColumn Header="Customer" Binding="{Binding Customer}" />
+                <DataGridTextColumn Header="Project" Binding="{Binding Project}" />
+                <DataGridTextColumn Header="Country" Binding="{Binding Country}" />
+                <DataGridTextColumn Header="Payment" Binding="{Binding Payment}">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="{x:Type TextBlock}">
+                            <Setter Property="Background" Value="Yellow" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Payment}" Value="paid">
+                                    <Setter Property="Background" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Payment}" Value="Paid">
+                                    <Setter Property="Background" Value="Green" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Payment}" Value="open">
+                                    <Setter Property="Background" Value="Red" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="0" Background="BlanchedAlmond" Padding="10">
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Inv.[Date]: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding InvDate}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Debitor: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Debitor}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Acc New Inv: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding AccNewInv}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="DI: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding DI}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Commission: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Commission}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Due Date: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding DueDate}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Invoice No: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding InvoiceNo}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="CSA NCSA: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding CSANCSA}" VerticalAlignment="Center" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock FontSize="12" Text="Comment: " VerticalAlignment="Center" />
+                                <TextBlock FontSize="13" Foreground="MidnightBlue" Text="{Binding Comment}" VerticalAlignment="Center" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+    </Grid>
+</Window>
