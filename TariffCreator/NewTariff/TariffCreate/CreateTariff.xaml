@@ -48,7 +48,10 @@
                     </Style>
                 </TextBlock.Style>
             </TextBlock>
-            <Button Name="btnImport" Content="Import Countrys" Click="btnImport_Click" HorizontalAlignment="Right" Padding="10,0" Margin="5" />
+            <StackPanel HorizontalAlignment="Right">
+                <Button Name="btnImport" Content="Import Countrys" Click="btnImport_Click" Padding="10,0" Margin="5" />
+                <Button Name="btnImportFile" Content="Import Inf File" Click="btnImportFile_Click" Padding="10,0" Margin="5" />
+            </StackPanel>
             
             <ListView Grid.Row="1" Name="listCountry" Margin="5">
                 <ListView.View>

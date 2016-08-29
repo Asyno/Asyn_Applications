@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -63,14 +64,16 @@ namespace TariffCreator.NewTariff.TariffCreate
             if (txtDescription.Text != "" && txtPrefix.Text != "")
             {
                 float pMin, pCall;
+                NumberStyles style = NumberStyles.AllowDecimalPoint;
+                CultureInfo culture = CultureInfo.CreateSpecificCulture("US");
                 Config.Country dublicat = null;
                 Config.Country country = new Config.Country(txtDescription.Text, txtPrefix.Text);
 
-                if (float.TryParse(txtPriceMin.Text, out pMin))
+                if (float.TryParse(txtPriceMin.Text, style, culture, out pMin))
                     country.PriceMin = pMin;
                 else
                     country.PriceMin = null;
-                if (float.TryParse(txtPriceCall.Text, out pCall))
+                if (float.TryParse(txtPriceCall.Text, style, culture, out pCall))
                 {
                     country.PriceCall = pCall;
                     if (country.PriceMin == null) country.PriceMin = 0;
@@ -146,6 +149,11 @@ namespace TariffCreator.NewTariff.TariffCreate
         private void btnImport_Click(object sender, RoutedEventArgs e)
         {
             ImportCountrys();
+        }
+
+        private void btnImportFile_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

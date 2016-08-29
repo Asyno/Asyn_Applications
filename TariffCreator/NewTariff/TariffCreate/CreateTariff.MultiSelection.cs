@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Windows.Controls;
 using System.Windows.Data;
 using TariffCreator.Config;
@@ -49,7 +50,9 @@ namespace TariffCreator.NewTariff.TariffCreate
         {
             CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(listCountry.ItemsSource);
             float pMin;
-            if (float.TryParse(txtPriceMin.Text, out pMin))
+            NumberStyles style = NumberStyles.AllowDecimalPoint;
+            CultureInfo culture = CultureInfo.CreateSpecificCulture("US");
+            if (float.TryParse(txtPriceMin.Text, style, culture, out pMin))
                 for (int i = 0; i < listCountry.SelectedItems.Count; i++)
                 {
                     ((Country)listCountry.SelectedItems[i]).PriceMin = pMin;
@@ -61,7 +64,9 @@ namespace TariffCreator.NewTariff.TariffCreate
         {
             CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(listCountry.ItemsSource);
             float pCall;
-            if (float.TryParse(txtPriceCall.Text, out pCall))
+            NumberStyles style = NumberStyles.AllowDecimalPoint;
+            CultureInfo culture = CultureInfo.CreateSpecificCulture("US");
+            if (float.TryParse(txtPriceCall.Text, style, culture, out pCall))
                 for (int i = 0; i < listCountry.SelectedItems.Count; i++)
                     (((Country)listCountry.SelectedItems[i])).PriceCall = pCall;
             view.Refresh();
