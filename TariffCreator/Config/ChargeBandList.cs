@@ -35,18 +35,18 @@ namespace TariffCreator.Config
                     {
                         PriceMin = (float)count.PriceMin,
                         PriceCall = (float)count.PriceCall,
-                        CBName = "CB" + cbList.Count + " - " + count.PriceMin.Value.ToString("F2"),
-                        CBShortName = "CB" + cbList.Count,
-                        CCName = "CC" + cbList.Count,
-                        CCShortName = "CC" + cbList.Count,
+                        CBName = "B" + cbList.Count + " - " + count.PriceMin.Value.ToString("F2"),
+                        CBShortName = "B" + cbList.Count,
+                        CCName = "C" + cbList.Count,
+                        CCShortName = "C" + cbList.Count,
                         PriceFor = 60,
                         PricePer = 60,
                         Countrys = new List<Country>(),
                     };
                     if (count.PriceMin == 0)
                     {
-                        if (count.PriceCall == 0) cb.CBName = "CB" + cbList.Count;
-                        else cb.CBName = "CB" + cbList.Count + " - " + count.PriceCall.Value.ToString("F2") + "pCall";
+                        if (count.PriceCall == 0) cb.CBName = "B" + cbList.Count;
+                        else cb.CBName = "B" + cbList.Count + " - " + count.PriceCall.Value.ToString("F2") + "pCall";
                     }
 
                     cb.Countrys.Add(count);

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -31,7 +32,7 @@ namespace TariffCreator.NewTariff.TariffCreate
             try
             {
                 string[] tariffInfo = new string[4];
-                ObservableCollection<ChargeBand> cbList;
+                ObservableCollection<ChargeBand> cbList = null;
 
                 FileStream fs = new FileStream(path, FileMode.Open);
                 StreamReader sr = new StreamReader(fs);
@@ -63,6 +64,7 @@ namespace TariffCreator.NewTariff.TariffCreate
 
                     while (line != "[ChargeBands]")
                         line = sr.ReadLine();
+                    line = sr.ReadLine();
 
                     // Read ChargeBand Name & Description
                     cbList = new ObservableCollection<ChargeBand>();
@@ -90,27 +92,37 @@ namespace TariffCreator.NewTariff.TariffCreate
                             {
                                 if (cb.CBShortName == rate[0])
                                 {
+                                    float callPrice = 0;
                                     float minPrice = 0;
-                                    if (float.TryParse(rate[2], out minPrice) && minPrice != 0)
-                                        minPrice = minPrice / 100000;
-                                    cb.MinimumPrice = minPrice;
-                                    // Restlichen Preise auslesen!!
+                                    float minimumPrice = 0;
+                                    int pricePer = 0;
+                                    int priceFor = 0;
+                                    if (float.TryParse(rate[2], out callPrice) && callPrice != 0) callPrice = callPrice / 100000;
+                                    if (float.TryParse(rate[5], out minPrice) && minPrice != 0) minPrice = minPrice / 100000;
+                                    if (float.TryParse(rate[6], out minimumPrice) && minimumPrice != 0) minimumPrice = minimumPrice / 100000;
+                                    if (int.TryParse(rate[3], out pricePer) && pricePer != 0) pricePer = pricePer / 1000;
+                                    if (int.TryParse(rate[4], out priceFor) && priceFor != 0) priceFor = priceFor / 1000;
+                                    cb.PriceCall = callPrice;
+                                    cb.PriceMin = minPrice;
+                                    cb.MinimumPrice = minimumPrice;
+                                    cb.PricePer = pricePer;
+                                    cb.PriceFor = priceFor;
                                 }
                             }
                         }
                         line = sr.ReadLine();
                     }
-
-                    string test = "";
-                    foreach (ChargeBand cb in cbList)
-                        test += cb.CBName + " - " + cb.MinimumPrice + "\r\n";
-                    MessageBox.Show(test);
                 }
                 else
                     NoTariff();
 
                 sr.Dispose();
                 fs.Dispose();
+                if(cbList != null)
+                {
+                    CreateCB.CreateChargeband createChargeband = new CreateCB.CreateChargeband(cbList);
+                    this.NavigationService.Navigate(createChargeband);
+                }
             }
             catch (Exception e) { MessageBox.Show(e.Message); }
         }
