@@ -12,15 +12,30 @@ namespace TariffCreator.NewTariff.CreateInfFile
     /// </summary>
     public partial class CreateInf : Page
     {
-        ObservableCollection<ChargeBand> cbListe;
+        private ObservableCollection<ChargeBand> cbListe;
 
-        public CreateInf(ObservableCollection<ChargeBand> chargeBandList)
+        public CreateInf(ObservableCollection<ChargeBand> chargeBandList) : this(chargeBandList, null) {}
+
+        public CreateInf(ObservableCollection<ChargeBand> chargeBandList, string[] info)
         {
             cbListe = chargeBandList;
             InitializeComponent();
             comboDefault.ItemsSource = cbListe;
             comboDefault.DisplayMemberPath = "CBName";
             comboDefault.SelectedIndex = 0;
+            if(info != null)
+            {
+                txtName.Text = info[0];
+                txtIdent.Text = info[1];
+                txtMeter.Text = info[3];
+                ChargeBand defaultCB = null;
+                foreach(ChargeBand item in cbListe)
+                {
+                    if (item.CBShortName == info[2])
+                        defaultCB = item;
+                }
+                comboDefault.SelectedItem = defaultCB;
+            }
         }
 
         private void btnRandom_Click(object sender, RoutedEventArgs e)

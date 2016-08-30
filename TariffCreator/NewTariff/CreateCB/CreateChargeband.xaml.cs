@@ -13,8 +13,11 @@ namespace TariffCreator.NewTariff.CreateCB
     public partial class CreateChargeband : Page
     {
         private ObservableCollection<ChargeBand> ChargeBandListe;
+        private string[] InfoText;
 
-        public CreateChargeband(ObservableCollection<ChargeBand> chargeBandList)
+        public CreateChargeband(ObservableCollection<ChargeBand> chargeBandList) : this(chargeBandList, null) {}
+
+        public CreateChargeband(ObservableCollection<ChargeBand> chargeBandList, string[] info)
         {
             ChargeBandListe = chargeBandList;
             InitializeComponent();
@@ -22,7 +25,10 @@ namespace TariffCreator.NewTariff.CreateCB
             comboCB.DisplayMemberPath = "CBName";
             comboCB.SelectedIndex = 0;
             comboCB.Focus();
+            InfoText = info;
         }
+
+
 
         /// <summary>
         /// Start the Menu to save the Tariff as inf
@@ -31,7 +37,7 @@ namespace TariffCreator.NewTariff.CreateCB
         /// <param name="e"></param>
         private void btnSaveCB_Click(object sender, RoutedEventArgs e)
         {
-            CreateInfFile.CreateInf createInf = new CreateInfFile.CreateInf(this.ChargeBandListe);
+            CreateInfFile.CreateInf createInf = new CreateInfFile.CreateInf(ChargeBandListe, InfoText);
             this.NavigationService.Navigate(createInf);
         }
 

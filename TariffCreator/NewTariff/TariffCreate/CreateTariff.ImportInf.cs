@@ -1,12 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using TariffCreator.Config;
 
@@ -76,7 +71,8 @@ namespace TariffCreator.NewTariff.TariffCreate
                                 CBShortName = line.Split('=')[0],
                                 CCShortName = line.Split('=')[0],
                                 CBName = line.Split('=')[1],
-                                CCName = line.Split('=')[1]
+                                CCName = line.Split('=')[1],
+                                Countrys = new System.Collections.Generic.List<Country>()
                             });
                         line = sr.ReadLine();
                     }
@@ -112,6 +108,27 @@ namespace TariffCreator.NewTariff.TariffCreate
                         }
                         line = sr.ReadLine();
                     }
+                    
+                    // Daily Rates überspringen
+                    while (line != "[Destinations]")
+                        line = sr.ReadLine();
+                    line = sr.ReadLine();
+
+                    // Destinations auslesen bis zum Ende des Files
+                    while (!sr.EndOfStream)
+                    {
+                        if (!string.IsNullOrWhiteSpace(line))
+                        {
+                            string[] split = line.Split(',');
+                            string chargeID = split[split.Length - 1];
+                            foreach (ChargeBand item in cbList)
+                            {
+                                if (item.CBShortName == chargeID)
+                                    item.Countrys.Add(new Country { Prefix = line.Split('=')[0], Description = line.Split('"')[1] });
+                            }
+                        }
+                        line = sr.ReadLine();
+                    }
                 }
                 else
                     NoTariff();
@@ -120,7 +137,7 @@ namespace TariffCreator.NewTariff.TariffCreate
                 fs.Dispose();
                 if(cbList != null)
                 {
-                    CreateCB.CreateChargeband createChargeband = new CreateCB.CreateChargeband(cbList);
+                    CreateCB.CreateChargeband createChargeband = new CreateCB.CreateChargeband(cbList, tariffInfo);
                     this.NavigationService.Navigate(createChargeband);
                 }
             }
