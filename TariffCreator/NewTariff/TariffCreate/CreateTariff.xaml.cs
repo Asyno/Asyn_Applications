@@ -64,8 +64,8 @@ namespace TariffCreator.NewTariff.TariffCreate
             if (txtDescription.Text != "" && txtPrefix.Text != "")
             {
                 float pMin, pCall;
-                NumberStyles style = NumberStyles.AllowDecimalPoint;
-                CultureInfo culture = CultureInfo.CreateSpecificCulture("US");
+                NumberStyles style = NumberStyles.Any;
+                CultureInfo culture = CultureInfo.InvariantCulture;
                 Config.Country dublicat = null;
                 Config.Country country = new Config.Country(txtDescription.Text, txtPrefix.Text);
 
@@ -153,7 +153,7 @@ namespace TariffCreator.NewTariff.TariffCreate
 
         private void btnImportFile_Click(object sender, RoutedEventArgs e)
         {
-
+            ImportInf();
         }
     }
 }

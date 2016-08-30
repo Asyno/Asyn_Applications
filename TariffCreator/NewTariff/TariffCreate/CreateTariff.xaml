@@ -106,20 +106,22 @@
                      Text="{Binding Path=PriceMin, StringFormat={}{0:F2}}" />
             <TextBox Grid.Row="3" Grid.Column="1" Margin="5" Name="txtPriceCall"
                      Text="{Binding Path=PriceCall, StringFormat={}{0:F2}}" />
+            <Expander Grid.Row="4" Grid.ColumnSpan="2" Header="Add new Prefix" Foreground="AntiqueWhite" >
+                <StackPanel Margin="0,15">
+                    <Button Margin="5" Name="btnAdd" Click="btnAdd_Click" Content="_Add new prefix" />
+                    <Button Margin="5" Name="btnSave" Click="btnSave_Click" Content="_Save" IsEnabled="False" />
+                    <Button Margin="5" Name="btnCancel" Click="btnCancel_Click" Content="_Cancel" IsEnabled="False" />
+                    <Button Margin="5" Name="btnDelet" Click="btnDelet_Click" Content="_Delete" />
+                </StackPanel>
+            </Expander>
 
-            <StackPanel Grid.Row="4" Grid.ColumnSpan="2" Margin="0,15">
-                <Button Margin="5" Name="btnAdd" Click="btnAdd_Click" Content="_Add new prefix" />
-                <Button Margin="5" Name="btnSave" Click="btnSave_Click" Content="_Save" IsEnabled="False" />
-                <Button Margin="5" Name="btnCancel" Click="btnCancel_Click" Content="_Cancel" IsEnabled="False" />
-                <Button Margin="5" Name="btnDelet" Click="btnDelet_Click" Content="_Delete" />
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2">
                 <Grid Margin="5,15">
                     <Label>Tariff Country</Label>
                     <ComboBox Name="comboCountry" MinWidth="100" Text="No Selection" HorizontalAlignment="Right" />
                 </Grid>
+                <Button Name="btnCreateCB" Margin="5,15" Content="Create Charge _Bands" Click="btnCreateCB_Click" />
             </StackPanel>
-
-            <Button Name="btnCreateCB" Grid.Row="5" Grid.ColumnSpan="2" Margin="5,15" Content="Create Charge _Bands" Click="btnCreateCB_Click" />
-
         </Grid>
     </Grid>
 </Page>

@@ -59,6 +59,7 @@
     <Compile Include="Config\ChargeBandList.cs" />
     <Compile Include="Config\Country.cs" />
     <Compile Include="Config\CountryList.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.ImportInf.cs" />
     <Compile Include="ReadInf\LoadFile\LoadFile.LoadInf.cs" />
     <Compile Include="ReadInf\LoadFile\LoadFile.xaml.cs">
       <DependentUpon>LoadFile.xaml</DependentUpon>
