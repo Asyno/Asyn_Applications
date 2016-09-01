@@ -50,7 +50,7 @@
             </StackPanel>
             <TextBox Grid.Column="1" Grid.Row="2" Name="txtMeter" />
             <ComboBox Grid.Column="1" Grid.Row="3" Name="comboDefault" Margin="5" />
-            <Button Grid.Column="1" Grid.Row="4" Margin="15" Name="btnSaveInf" Click="btnSaveInf_Click" Content="Save as Inf" />
+            <Button Grid.Column="1" Grid.Row="4" Margin="15" Name="btnSaveInf" Click="btnSaveInf_Click" Content="Save as File" />
         </Grid>
     </Grid>
 </Page>

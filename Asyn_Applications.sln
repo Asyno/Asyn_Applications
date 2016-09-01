@@ -170,6 +170,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CG_DatabaseReader", "CG_Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_ExcelReader", "Test_ExcelReader\Test_ExcelReader.csproj", "{74B98D3D-93F8-471F-9CAF-93FFC764F709}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateExcel_Test", "CreateExcel_Test\CreateExcel_Test.csproj", "{44A194F8-1A94-49EF-AE33-63153B2ECA7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -436,6 +438,10 @@ Global
 		{74B98D3D-93F8-471F-9CAF-93FFC764F709}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74B98D3D-93F8-471F-9CAF-93FFC764F709}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74B98D3D-93F8-471F-9CAF-93FFC764F709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A194F8-1A94-49EF-AE33-63153B2ECA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A194F8-1A94-49EF-AE33-63153B2ECA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A194F8-1A94-49EF-AE33-63153B2ECA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A194F8-1A94-49EF-AE33-63153B2ECA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -521,5 +527,6 @@ Global
 		{066700DB-04D3-407D-A6AB-2BB07564868E} = {8C9A9D9E-5A5D-4D62-BCE1-4BED07F26AC1}
 		{3E2316DE-0ADB-4383-9BD6-996030380C87} = {066700DB-04D3-407D-A6AB-2BB07564868E}
 		{74B98D3D-93F8-471F-9CAF-93FFC764F709} = {066700DB-04D3-407D-A6AB-2BB07564868E}
+		{44A194F8-1A94-49EF-AE33-63153B2ECA7B} = {713A6282-FBB3-436C-8041-028A81EF4847}
 	EndGlobalSection
 EndGlobal

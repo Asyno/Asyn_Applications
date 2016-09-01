@@ -29,29 +29,29 @@ namespace TariffCreator.NewTariff.CreateInfFile
 
                 // [CallCategories]
                 sw.WriteLine("[CallCategories]");
-                for (int i = 0; i < cbListe.Count; i++)
-                    sw.WriteLine(cbListe[i].CCShortName + "=" + cbListe[i].CCName);
+                for (int i = 0; i < CbListe.Count; i++)
+                    sw.WriteLine(CbListe[i].CCShortName + "=" + CbListe[i].CCName);
                 sw.WriteLine();
                 sw.Flush();
 
                 // [ChargeBands]
                 sw.WriteLine("[ChargeBands]");
-                for (int i = 0; i < cbListe.Count; i++)
-                    sw.WriteLine(cbListe[i].CBShortName + "=" + cbListe[i].CBName);
+                for (int i = 0; i < CbListe.Count; i++)
+                    sw.WriteLine(CbListe[i].CBShortName + "=" + CbListe[i].CBName);
                 sw.WriteLine();
                 sw.Flush();
 
                 // [ChargeRates]
                 sw.WriteLine("[ChargeRates]");
-                for(int i = 0; i < cbListe.Count; i++)
+                for(int i = 0; i < CbListe.Count; i++)
                 {
-                    sw.Write(cbListe[i].CBShortName);
+                    sw.Write(CbListe[i].CBShortName);
                     sw.Write(",A=\"AllDay\",");
-                    sw.Write((int)(cbListe[i].PriceCall * 100000) + ",");
-                    sw.Write((cbListe[i].PricePer * 1000) + ",");
-                    sw.Write((cbListe[i].PriceFor * 1000) + ",");
-                    sw.Write((int)(cbListe[i].PriceMin * 100000) + ",");
-                    sw.Write((int)(cbListe[i].MinimumPrice * 100000) + ",");
+                    sw.Write((int)(CbListe[i].PriceCall * 100000) + ",");
+                    sw.Write((CbListe[i].PricePer * 1000) + ",");
+                    sw.Write((CbListe[i].PriceFor * 1000) + ",");
+                    sw.Write((int)(CbListe[i].PriceMin * 100000) + ",");
+                    sw.Write((int)(CbListe[i].MinimumPrice * 100000) + ",");
                     sw.WriteLine("None,0,0,0,0,0");
                 }
                 sw.WriteLine();
@@ -59,26 +59,26 @@ namespace TariffCreator.NewTariff.CreateInfFile
 
                 // [DailyRates]
                 sw.WriteLine("[DailyRates]");
-                for(int i=0;i<cbListe.Count;i++)
+                for(int i=0;i<CbListe.Count;i++)
                 {
                     for (int day = 0; day <= 7; day++)
-                        sw.WriteLine(cbListe[i].CBShortName + "," + day + "=0000:A");
+                        sw.WriteLine(CbListe[i].CBShortName + "," + day + "=0000:A");
                 }
                 sw.WriteLine();
                 sw.Flush();
 
                 // [Destinations]
                 sw.WriteLine("[Destinations]");
-                for(int i = 0; i < cbListe.Count; i++)
+                for(int i = 0; i < CbListe.Count; i++)
                 {
-                    foreach(Country item in cbListe[i].Countrys)
+                    foreach(Country item in CbListe[i].Countrys)
                     {
                         if (!(string.IsNullOrWhiteSpace(item.Description) || string.IsNullOrWhiteSpace(item.Prefix)))
                         {
                             sw.Write(item.Prefix + "=\"");
                             sw.Write(item.Description + "\",");
-                            sw.Write(cbListe[i].CCShortName + ",");
-                            sw.WriteLine(cbListe[i].CBShortName);
+                            sw.Write(CbListe[i].CCShortName + ",");
+                            sw.WriteLine(CbListe[i].CBShortName);
                         }
                     }
                 }
