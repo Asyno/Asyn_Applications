@@ -22,7 +22,7 @@ namespace TariffCreator.NewTariff.CreateInfFile
             table.Columns.Add(new DataColumn());
 
             table.TableName = txtName.Text;
-            table.Rows.Add(new Object[] { "Tariff Overview", "", "", "", "", "", "", "" });
+            table.Rows.Add(new Object[] { "Tariff Info", "", "", "", "", "", "", "" });
             table.Rows.Add(new Object[] { "Tariff Name:", txtName.Text, "", "", "", "", "", "" });
             table.Rows.Add(new Object[] { "Tariff ID:", txtIdent.Text, "", "", "", "", "", "" });
             table.Rows.Add(new Object[] { "Meter Price:", txtMeter.Text, "", "", "", "", "", "" });
