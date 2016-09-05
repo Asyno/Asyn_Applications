@@ -25,11 +25,7 @@ namespace TariffCreator.NewTariff.CreateInfFile
                 UInt32 rowIndex = 0;
 
                 // Create the table
-                Columns columns = new Columns();
-                Column c = new Column() { Width = 100,  };
-                columns.Append(c);
                 worksheetPart.Worksheet.Append(sheetData);
-                worksheetPart.Worksheet.Append(columns);
 
                 // Tariff Info
                 sheetData.AppendChild(CreateCell("A", ++rowIndex, "Tariff Info"));
